@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <img src="recursos/deva.svg" alt="Logo DEVA">
-        <div id="header_right-icons">
-            <img src="recursos/search.svh" alt="Icono Búsqueda">
-            <nav>
-                    <img src="recursos/hamburger-menu.svg" alt="Ícono menu" id="header_menu-icon">
-            </nav>
-        </div>
-    </header>
+    <?php include("header.php");?>
     <main>
         <video controls preload="metadata" alt="Video de Presentación de DEVA" autoplay muted>
             <source src="http://www.example.com/waterfall-video.webm" type="video/webm">
