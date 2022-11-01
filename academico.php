@@ -22,6 +22,7 @@
                 <p class="bajada_banner">aprender sobre E-SPORTS te va a ayudar a expandir tus oportunidades de emprender, crecer y potenciar tu carrera.</p>
             </div>
         </div>
+        
 <!-- componente carrousel certificados -->
 
         <div class="container_carousel">
@@ -142,7 +143,7 @@
         <div class="main_card-magenta">
             <h3>Contactate con DEVA</h3>
                 <p>Si estás interesado en saber un poco más de nosotros, o tenés una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
-                <a href="contacto.html">
+                <a href="contacto.html" class="boton_info">
                     <p>+INFO</p>
                     <div class="icon-arrow-right"></div>
                 </a>
