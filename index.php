@@ -17,7 +17,7 @@
         <div class="container-black_right">
             <H1>DEVA es el gran motor que promociona y desarrolla los deportes electrónicos en el país.</H1>
             <a href="about.html" class="boton-mas-info">
-                <p>+INFO</p>
+                <p>+Info</p>
                 <div class="arrow-right"></div>
             </a>
         </div>
@@ -28,75 +28,133 @@
         
             
     </div>
-        <div class="main_card-proyectos"> <!--SI QUIERO APLICAR SECTION, SEGUN MDN LA SECCION DEBERÍA TENER UN H1 TAMBIEN, ES ASI ESTO?
-        CITO: https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements
-        Con el elemento <section>, debe considerar evitar usar <h1> más de una vez en una página; por costumbre, se usa para mostrar el título de la página, con todos los encabezados debajo de éste comenzando con <h2>. Cuando se usan secciones, debe usarse un <h1> por sección. Véase Definiendo secciones en Secciones y esquema de un documento HTML5 para más información.
-        
-        -->
-
-    <div class="container_carousel">
+    <div class="main_card-proyectos">
+        <div class="container_carousel">
             <h2>PROYECTOS</h2>
-            <div class="carousel">
+            <section class="carousel">
                 
                 <article class="main_carousel-scroll">
-                    <img src="recursos/arena_gamer.png" alt="">
-                    <div><h3>Arena Gamer - Tecnópolis</h3>
-                    <P>El parque temático abrió las puertas de su primera arena gamer totalmente gratuita y abierta al público y sus comunidades.</P>
-                    <a href="proyectos/arena-gamer.html" class="carousel_arena-gamer">
-                        <p>Ver más</p>
-                        <div class="icon-arrow-right"></div>
-                    </a>
+                    <img src="recursos/arena_gamer.png" alt="Fotografía de computadoras en Arena Gamer">
+                    <div class="carousel_text-container">
+                        <h3>Arena Gamer - Tecnópolis</h3>
+                        <P>El parque temático abrió las puertas de su primera arena gamer totalmente gratuita y abierta al público y sus comunidades.</P>
+                        <div>
+                            <a class="boton-mas-info" href="proyectos/arena-gamer.php">
+                            <p>Ver más</p>
+                            <div class="icon-arrow-right"></div>
+                            </a>
+                        </div>
                     </div>
                 </article>
-                <article class="main_carousel-scroll">
-                    <h3>AGS 2022</h3>
-                    <P>Durante el fin de semana que se dará lugar el AGS FLOW 2022 tendremos competencias de alto nivel, entre ellas, estarán nuestros seleccionados de CSGO, E-Football y Mobile Legends.</P>
-                    <a href="proyectos/arena-gamer.html" class="carousel_arena-gamer">
-                        <p>Ver más</p>
-                        <div class="icon-arrow-right"></div>
-                    </a>
+                <!-- COMENTAMOS ESTO PORQUE NO SABEMOS HACER EL JAVASCRIPT PARA EL CAROUSEL, ASI QUE QUEDA FIJO 
+                    <article class="main_carousel-scroll">
+                        <article class="main_carousel-scroll">
+                    <img src="recursos/ags.png" alt="Fotografía de computadoras en Arena Gamer">
+                    <div class="carousel_text-container">
+                        <h3>AGS 2022</h3>
+                        <P>Durante el fin de semana que se dará lugar el AGS FLOW 2022 tendremos competencias de alto nivel, entre ellas, estarán nuestros seleccionados de CSGO, E-Football y Mobile Legends.</P>
+                        <div>
+                            <a class="boton-mas-info" href="proyectos/arena-gamer.html">
+                            <p>Ver más</p>
+                            <div class="icon-arrow-right"></div>
+                            </a>
+                        </div>
+                    </div>
                 </article>
+
                 <article class="main_carousel-scroll">
-                    <h3>Juegos Bonaerenses</h3>
-                    <P>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jóvenes de toda la Provincia de Bs As.</P>
-                    <a href="proyectos/arena-gamer.html" class="carousel_arena-gamer">
-                        <p>Ver más</p>
-                        <div class="icon-arrow-right"></div>
-                    </a>
+                        <article class="main_carousel-scroll">
+                    <img src="recursos/bonaerenses.png" alt="Fotografía de equipo de Gaming en los Juegos Bonaerenses">
+                    <div class="carousel_text-container">
+                        <h3>Juegos Bonaerenses</h3>
+                        <P>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jóvenes de toda la Provincia de Bs As.</P>
+                        <div>
+                            <a class="boton-mas-info" href="proyectos/juegos-bonaerenses.php">
+                            <p>Ver más</p>
+                            <div class="icon-arrow-right"></div>
+                            </a>
+                        </div>
+                    </div>
                 </article>
+
                 <article class="main_carousel-scroll">
-                    <h3>EJUAR</h3>
-                    <P>Los Juegos Universitarios Argentinos son la competencia oficial del Ministerio de Educación en conjunto con la Federación del Deporte Universitario Argentino con más de 160 universidades participantes.</P>
-                    <a href="proyectos/arena-gamer.html" class="carousel_arena-gamer">
-                        <p>Ver más</p>
-                        <div class="icon-arrow-right"></div>
-                    </a>
+                        <article class="main_carousel-scroll">
+                    <img src="recursos/ejuar.png" alt="Fotografía de computadoras en los Juegos Universitarios Argentinos">
+                    <div class="carousel_text-container">
+                        <h3>EJUAR</h3>
+                        <P>Los Juegos Universitarios Argentinos son la competencia oficial del Ministerio de Educación en conjunto con la Federación del Deporte Universitario Argentino con más de 160 universidades participantes.</P>
+                        <div>
+                            <a class="boton-mas-info" href="proyectos/EJUAR.php">
+                            <p>Ver más</p>
+                            <div class="icon-arrow-right"></div>
+                            </a>
+                        </div>
+                    </div>
                 </article>
-            </div>
+                -->
+            </section>
         </div>
     </div>
-    <!-- Hasta acá el carousel de proyectos
-
-    SECTION EN LA MAIN CARD-->
+    <div class="botones-carousel">
+        <button id="anterior-proyecto"><img src="recursos/chevron-left.svg" alt="Anterior Proyecto"></button>
+        <button id="siguiente-proyecto"><img src="recursos/chevron-right.svg" alt="Siguiente Proyecto"></button>
+    </div>
+    <!-- Hasta acá el carousel de proyectos-->
 
     <div class="main_card-magenta">
         <h3>Certificaciones</h3>
             <p>Enterate de todo lo que necesitás saber para obtener la certificación DEVA y los requisitos para inscribirte.</p>
-            <a href="certificaciones.html">
-                <p>+INFO</p>
+            <a href="certificaciones.html" class="boton-mas-info">
+                <p>+Info</p>
                 <div class="icon-arrow-right"></div>
             </a>
     </div>
 
-    <!-- Aca empieza el calendario -->
+    <div class="competencias_y_calendario">
+    <h3>Competencias</h3>
+    <!-- Este container que sigue contiene la imagen del carousel en el css -->
+        
+        <div class="main_competencias-container">
 
-    <div class="main_calendar-container">
-        <h3>Calendario</h3>
-        <div class="main_calendar">
-         
+        
+            <div class="competencias_juegos-bsas">
+            <div>
+                <div class="botones-carousel">
+                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+
+                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                </div>
+                <div class="container-celeste">
+                        <h4>
+                            Juegos Bonaerenses
+                        </h4>
+                        <p>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jovenes de toda la Provincia de Bs As.</p>
+                    <a href="certificaciones.html" class="boton-mas-info">
+                        <p>Ver más</p>
+                        <div class="icon-arrow-right"></div>
+                    </a>
+                </div>
         </div>
+
+
+        </div>
+
+
+        </div>
+
+
+        <div class="main_calendar-container">
+            <h3>Calendario</h3>
+            <div class="main_calendar">
+            
+            </div>
+        </div>
+
+
     </div>
-    <!-- Hasta acá llega el calendario -->
+
+    
+    
 
 
     <div class="main_secciones">
@@ -107,25 +165,16 @@
             <h5>Streamers</h5>
         </div>
         <div class="main_secciones-card">
-            <h5>Competencias</h5>
-        </div>
-        <div class="main_secciones-card">
             <h5>Prensa</h5>
         </div>
     </div>
 
-    <div class="main_galeria-carousel">
-        <div>
-            <a href="#"><img src="#" alt="anterior foto"></a>
-            <img src="#" alt="Foto1">
-            <a href="#"><img src="#" alt="siguiente foto"></a>
-        </div>
-    </div>
+               
 
     <div class="main_card-magenta">
         <h3>Contactate con DEVA</h3>
             <p>Si estás interesado en saber un poco más de nosotros, o tenés una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
-            <a href="contacto.html">
+            <a href="contacto.html" class="boton-mas-info">
                 <p>+INFO</p>
                 <div class="icon-arrow-right"></div>
             </a>
