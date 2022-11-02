@@ -129,7 +129,7 @@
                             Juegos Bonaerenses
                         </h4>
                         <p>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jovenes de toda la Provincia de Bs As.</p>
-                    <a href="certificaciones.html" class="boton-mas-info">
+                    <a href="juegos-bonaerenses.php" class="boton-mas-info">
                         <p>Ver más</p>
                         <div class="icon-arrow-right"></div>
                     </a>

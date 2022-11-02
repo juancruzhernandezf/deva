@@ -85,6 +85,7 @@ nav ul li {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    gap: 3rem;
     color: #fff;
     background-color: #000000;
     z-index: 1;
@@ -108,7 +109,6 @@ nav ul li {
 
 .container-black_left p {
     font-size: 1.5rem;
-    inline-size: 550px;
 }
 
 .container-black h1 {
@@ -268,18 +268,26 @@ button {
 
 .competencias_y_calendario .botones-carousel {
     justify-content: space-between;
-    margin: 0 2rem;
+    margin: 0 2rem 3.5rem 2rem;
 }
 
 .container-celeste {
     background-color: rgba(91, 225, 255, 0.8);
+    padding: 2rem 12.5rem; 
 }
 
+.container-celeste h4 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
 
+.container-celeste > p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
 
 .container-celeste .boton-mas-info {
     filter: brightness(0) invert(1);
-    flex-grow: 2;
 }
 
 .container-celeste_textos {
@@ -289,11 +297,11 @@ button {
 
 .main_competencias-container {
     background-image: url(recursos/juegos-bonaerenses-carousel.png);
+    background-size: cover;
     display: flex;
     height: 47rem;
     flex-direction: column;
-    gap: 58px;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     
 }
 
