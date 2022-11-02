@@ -145,10 +145,54 @@
 
         <div class="main_calendar-container">
             <h3>Calendario</h3>
-            <div class="main_calendar">
-            
+            <div class="botones-carousel" class="botones-calendario">
+                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+
+                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                </div>
+            <div class="calendar-main">
+                
+                <img src="coscu.png" alt="Imagen del streamer Coscu jugando en un evento mientras streamea">
+                <div>
+                    <h3>Streaming con Coscu</h3>
+                    <h4>Jueves 5</h4>
+                    <p>De 17hs a 18hs vía Twitch</p>
+                    <p>Preparate para aprender los movimientos que llevaron a Coscu a consagrarse como ganador en la tercera jornada de Argentina Game Show Flow 2021.</p>
+                </div>
+
+                <a href="streaming-coscu.php" class="boton-mas-info">
+                        <p>Ver más</p>
+                        <div class="icon-arrow-right"></div>
+                    </a>
+
+
+            </div>
+            <div class="calendar_secondary">ç
+
+                <div class="event-date">
+                    <p>15 Sab.</p>
+                </div>
+                <div>
+                    <h5>Demostración de nuevos equipamientos</h5>
+                    <p>De 12 a 18hs en Arena Gamer - Tecnópolis</p>
+                </div>
+
+            </div>
+
+            <div class="calendar_secondary">ç
+
+                <div class="event-date">
+                    <p>15 Sab.</p>
+                </div>
+                <div>
+                    <h5>Nuevas tecnicas de ataque en LOL con Sabrina Carnevale</h5>
+                    <p>De 18hs a 19hs vía Twitch</p>
+                </div>
+
             </div>
         </div>
+
+        <div class="arrow-down.svg"></div>
 
 
     </div>
