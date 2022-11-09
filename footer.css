@@ -83,7 +83,7 @@ footer p a {
 }
 
 @media (max-width: 58em) {
-    #logo-deva {
+    footer #logo-deva {
         display: none;
     }
 

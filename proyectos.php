@@ -8,6 +8,7 @@
     <link rel="stylesheet" media="(max-width: 58rem)" href="proyectos-academico_mobile.css"/>
     <link rel="stylesheet" media="(min-width: 58.1rem)" href="proyectos-academico.css"/>
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
     <script src="nav.js" defer></script>
 </head>
 <body>
