@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="main2.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
     <script src="nav.js" defer></script>
 </head>
 <body>
@@ -207,6 +208,22 @@
         </div>
 
             <div class="arrow-down"></div>
+
+        <section class="main_galeria">
+            <article>
+                <h2>
+                    Galería
+                </h2>
+                <a href="galeria.php">Ver más</a>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <div class="botones-carousel" class="botones-galeria">
+                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                </div>
+            </article>
+        </section>
 
 
     </div>
