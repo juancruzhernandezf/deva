@@ -54,12 +54,6 @@ video {
     width: 100%;
 }
 
-.flex {
-    display: flex;
-    gap: var(--gap, .5rem);
-
-}
-
 
 main {
     display: flex;
@@ -252,6 +246,10 @@ button {
     display: flex;
     justify-content: center;
     gap: 20rem;
+}
+
+.botones-carousel .botones-calendario {
+    justify-content: center;
 }
 
 .competencias_y_calendario {
@@ -662,7 +660,7 @@ button {
         filter: var(--filterwhite);
     }
 
-    .botones-calendario {
+    .botones-carousel.botones-calendario {
         margin-top: 2rem;
         display: flex;
         align-items: center;

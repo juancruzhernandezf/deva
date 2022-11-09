@@ -22,6 +22,12 @@ header {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+
+.primary-navigation {
+    display: flex;
+    gap: .5rem;
+}
+
 nav ul li {
     display: flex;
     align-items: center;
@@ -47,10 +53,7 @@ nav ul li {
  }
 
  @media (max-width: 58em) {
-    .flex {
-        padding: 0 1rem;
-        margin: 0;
-    }
+    
 
     nav {
         height: 72px;
@@ -92,8 +95,8 @@ nav ul li {
         border: none;
         width: 2rem;
         aspect-ratio: 1;
-        top: 1rem;
-        right: 1rem;
+        top: 2rem;
+        right: 3rem;
         background-position: center;
 
     }
@@ -101,7 +104,8 @@ nav ul li {
     .mobile-nav-toggle[aria-expanded="true"] {
         background-image: url("recursos/close.svg");
     }
-    
+
+
  }
 
  .visually-hidden:not(:focus):not(:active) {
@@ -114,3 +118,6 @@ nav ul li {
     width: 1px;
   }
 
+nav {
+    padding: 1rem;
+}
