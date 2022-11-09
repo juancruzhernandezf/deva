@@ -95,8 +95,8 @@ nav ul li {
         border: none;
         width: 2rem;
         aspect-ratio: 1;
-        top: 2rem;
-        right: 3rem;
+        top: 1.25rem;
+        right: 1rem;
         background-position: center;
 
     }

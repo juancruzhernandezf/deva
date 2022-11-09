@@ -2,16 +2,23 @@ footer {
     margin-top: 3rem;
     padding: 2rem 1rem;
     background-color: #000;
+}
+
+footer > div {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
+
+
+
 
 footer h6 {
     font-size: 1.5rem;
     color: #fff;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 footer input[type="submit"] {
@@ -30,7 +37,6 @@ footer input[type="submit"] {
 }
 
 footer ul {
-    width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -61,7 +67,6 @@ footer form {
 
 
 footer input[type=email] { 
-    height: 100%;
     padding: .35rem 1rem;
     margin-right: .5rem;
 }
@@ -78,10 +83,22 @@ footer p a {
 }
 
 @media (max-width: 58em) {
+    #logo-deva {
+        display: none;
+    }
 
-    footer {
+    footer h6 {
+        margin-bottom: 1rem;
+    }
+
+
+
+
+    footer div {
+        display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
 }
