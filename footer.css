@@ -71,6 +71,10 @@ footer input[type=email] {
     margin-right: .5rem;
 }
 
+footer input[type=email]::placeholder {
+    color: #000;
+}
+
 footer p {
     color: #fff;
     font-size: .5rem;

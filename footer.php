@@ -6,7 +6,7 @@
             <h6>Suscribite al Newsletter</h6>
             <form action="newsletter.php" method="post">
                 <label for="email">Tu email</label>
-                <input name="email" type="email" placeholder="Ingresa tu correo electrónico">
+                <input name="email" type="email" placeholder="Ingresá tu email">
                 <input type="submit" value="Enviar">
             
             </form>
