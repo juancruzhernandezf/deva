@@ -50,7 +50,7 @@
                     <img src="recursos/arena_gamer.png" alt="Fotografía de computadoras en Arena Gamer">
                     <div class="carousel_text-container">
                         <h3>Arena Gamer - Tecnópolis</h3>
-                        <P>El parque temático abrió las puertas de su primera arena gamer totalmente gratuita y abierta al público y sus comunidades.</P>
+                        <p>El parque temático abrió las puertas de su primera arena gamer totalmente gratuita y abierta al público y sus comunidades.</p>
                         <div>
                             <a class="boton-mas-info" href="proyectos/arena-gamer.php">
                             <p>Ver más</p>
