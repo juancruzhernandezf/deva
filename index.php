@@ -7,7 +7,7 @@
     <meta name="description" content="Asociación abocada a la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.">
     <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina">
     <title>DEVA - Haciendo crecer los e-sports en Argentina</title>
-    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
@@ -158,7 +158,7 @@
 
         <div class="main_calendar-container">
             <h3>Calendario</h3>
-            <div class="botones-carousel" class="botones-calendario">
+            <div class="botones-carousel botones-calendario" >
                     <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
                     <p>Octubre</p>
                     <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
@@ -166,6 +166,7 @@
             <div class="calendar-main">
                 
                 <img src="recursos/coscu.png" alt="Imagen del streamer Coscu jugando en un evento mientras streamea">
+            <div>
                 <div>
                     <div class="calendar-main text-calendar">
                         <h3>Streaming con Coscu</h3>
@@ -175,10 +176,11 @@
                     <p>Preparate para aprender los movimientos que llevaron a Coscu a consagrarse como ganador en la tercera jornada de Argentina Game Show Flow 2021.</p>
                 </div>
 
-                <a href="streaming-coscu.php" class="boton-mas-info">
+                    <a href="streaming-coscu.php" class="boton-mas-info">
                         <p>Ver más</p>
                         <div class="icon-arrow-right"></div>
                     </a>
+                </div>
 
 
             </div>
@@ -209,21 +211,7 @@
 
             <div class="arrow-down"></div>
 
-        <section class="main_galeria">
-            <article>
-                <h2>
-                    Galería
-                </h2>
-                <a href="galeria.php">Ver más</a>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <div class="botones-carousel" class="botones-galeria">
-                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
-                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
-                </div>
-            </article>
-        </section>
+        
 
 
     </div>
@@ -243,6 +231,26 @@
             <h5>Prensa</h5>
         </div>
     </div>
+
+
+    <section class="main_galeria">
+            <article>
+                <div class="heading-galeria"><h2>
+                    Galería
+                </h2>
+                <a href="galeria.php">Ver más</a>
+                </div>
+                <div class="imagenes-galeria">
+                <img src="recursos/galeria1.png" alt="Chica gamer jugando en evento Juegos Bonaerenses">
+                <img src="recursos/galeria2.png" alt="Chica gamer jugando en AGS2022">
+                <img src="recursos/galeria3.png" alt="Equipo CSGO compitiendo en AGS 2022">
+                </div>
+                <div class="botones-carousel botones-galeria">
+                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                </div>
+            </article>
+        </section>
 
                
 

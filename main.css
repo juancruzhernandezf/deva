@@ -10,12 +10,40 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 video {
     width: 100%;
     z-index: -1;
     
+}
+
+:root {
+    --filterwhite: brightness(0) invert(1);
+    --filterblack: brightness(0);
+}
+
+.boton-mas-info {
+    text-decoration: none;
+    color: #5BE1FF;
+    border: solid 3px #5BE1FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-size: 18px;
+    width: max-content;
+    padding: 0 .5rem;
+}
+
+.boton-mas-info div {
+    background-image: url(recursos/arrow-right.svg);
+    background-repeat: no-repeat;
+    width: 2rem;
+    aspect-ratio: 1;
+    background-position: center;
 }
 
 .video-deva {
@@ -26,9 +54,20 @@ video {
     width: 100%;
 }
 
+.flex {
+    display: flex;
+    gap: var(--gap, .5rem);
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 .container-black {
-    margin: -4rem 12.5rem 1rem 12.5rem;
+    margin: -5rem 2rem 2rem ;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -53,10 +92,10 @@ video {
     gap: 6rem;
 }
 
-
 .container-black_left p {
     font-size: 1.5rem;
 }
+
 
 .container-black h1 {
     font-size: 2.5rem;
@@ -74,33 +113,75 @@ video {
     align-items: center;
     font-size: 18px;
     width: max-content;
-}
-
-.boton-mas-info p {
-    margin: 0.875rem 2.5rem;
     text-transform: uppercase;
 }
 
-
-.boton-mas-info div {
-    background-image: url(recursos/arrow-right.svg);
-    display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: .5rem;
-}
-
-
 .carousel {
-    position: relative;
     border: solid .5rem #5BE1FF;
     padding: 4rem 1.5rem;
+    margin: 2rem;
+}
+
+.container_carousel h2 {
+    margin-left: 4rem;
+    padding: 0 2rem;
+    top: -1rem;
+    width: min-content;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    text-align: center;
+    font-size: 2.5rem;
 }
 
 .container_carousel {
     position: relative;
-    margin: 12.5rem 12.5rem 2rem 12.5rem;
 }
+
+.main_carousel-scroll {
+    display: flex;
+}
+
+.main_carousel-scroll img {
+    width: auto;
+    height: auto;
+}
+
+main .botones-carousel {
+    margin-bottom: 3rem;
+}
+
+.carousel_text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.carousel_text-container h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.carousel_text-container p {
+    font-size: 1.5rem;
+}
+
+.carousel_text-container > div{
+   align-self: flex-end;
+   justify-self: flex-end;
+}
+
+.main_carousel-scroll .boton-mas-info p {
+    font-size: 1.125rem;
+}
+
+
+
+/* 
+
+
+
 .container_carousel h2 {
     margin-left: 8.5rem;
     padding: 0 2rem;
@@ -120,6 +201,7 @@ video {
 
 .main_carousel-scroll img {
     margin-right: 1.5rem ;
+    width: 50%;
 }
 
 .carousel_text-container h3 {
@@ -146,7 +228,7 @@ video {
 
 .carousel_text-container > div {
     align-self: flex-end;
-}
+} */
 
 button {
     background: none repeat scroll 0 0 transparent;
@@ -163,6 +245,7 @@ button {
     text-align: left;
     text-decoration: none;
     text-indent: 0;
+    
 }
 
 .botones-carousel {
@@ -171,46 +254,133 @@ button {
     gap: 20rem;
 }
 
-.main_card-magenta {
-    background-color: #FF3387;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10rem 31.5rem 0 31.5rem;
-    padding: 3rem 4rem;
-    color: #fff;
-    position: relative;
-    z-index: 100;
-}
-
-.main_card-magenta h3 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
-
-.main_card-magenta > p {
-    font-size: 2rem;
-    margin: 2rem 0;
-}
-
-.main_card-magenta a {
-    align-self: flex-end;
-    filter: brightness(0) invert(1);
-}
-
 .competencias_y_calendario {
     background-color: #000000;
     color: #fff;
-    margin: -7rem 0 0 0;
+    margin: -4rem 0 0 0;
     z-index: -1;
-    padding: 10rem 0;
+    padding: 7rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.competencias_y_calendario h3 {
+.main_card-magenta {
+    background-color: #FF3387;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main_card-magenta h3 {
+    font-size: 1.5rem;
     text-transform: uppercase;
-    font-size: 2.5rem;
-    margin: 9.5rem 12.5rem 2rem 12.5rem;
+    margin-bottom: 1rem;
+}
+
+.main_card-magenta .boton-mas-info {
+    filter: var(--filterwhite);
+    width: 100%;
+    justify-content: center;
+    margin: 1rem 0 0;
+}
+
+.main_card-proyectos .boton-mas-info {
+    display: flex;
+    align-items: center;
+}
+
+
+.calendar_secondary {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.calendar_secondary .event-date {
+    border: solid 2px #5BE1FF;
+    font-size: .875rem;
+    width: 4.2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 1rem 1.5rem 0;
+
+}
+
+.calendar_secondary h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.main_secciones {
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.main_secciones-card {
+    background-color: #FF3387;
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-down {
+    background-image: url(recursos/down-arrow.svg);
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 4rem;
+}
+
+
+.heading-galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 4rem 1rem 1.5rem;
+}
+.heading-galeria a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+.imagenes-galeria {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.imagenes-galeria img {
+    height: max-content;
+}
+
+.main-galeria {
+    position: relative;
+}
+
+.botones-galeria {
+    position: relative;
+    bottom: 20rem;
+    z-index: 1;
+    filter: var(--filterwhite);
+    justify-content: space-between;
 }
 
 .competencias_y_calendario .botones-carousel {
@@ -220,16 +390,23 @@ button {
 
 .container-celeste {
     background-color: rgba(91, 225, 255, 0.8);
-    padding: 2rem 12.5rem; 
+    padding: 2rem 2rem; 
+}
+
+.competencias_y_calendario > h3 {
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+
 }
 
 .container-celeste h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
 .container-celeste > p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 2rem 0;
 }
 
@@ -242,6 +419,7 @@ button {
 }
 
 
+
 .main_competencias-container {
     background-image: url(recursos/juegos-bonaerenses-carousel.png);
     background-size: cover;
@@ -249,6 +427,7 @@ button {
     height: 47rem;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 10rem;
     
 }
 
@@ -259,3 +438,269 @@ button {
 #anterior-competencia {
     filter: brightness(0) invert(1);
 }
+
+.main_calendar-container {
+    margin: 0 2rem;
+}
+
+.main_calendar-container .botones-carousel {
+    justify-content: flex-start;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+
+}
+
+.calendar-main {
+    display: flex;
+    gap: 1rem;
+}
+
+.calendar-main.text-calendar {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.calendar-main.text-calendar h4 {
+    font-size: 2.5rem;
+}
+
+.calendar-main.text-calendar h3 {
+    margin-bottom: 1rem;
+}
+
+.calendar-main p {
+    margin-bottom: 1rem;
+}
+
+.calendar-main .boton-mas-info p {
+    margin: 0;
+}
+
+.main_calendar-container button img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.main_calendar-container > h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.calendar-main > div {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-main a {
+    align-self: flex-end;
+}
+
+@media (max-width: 58em) {
+
+    
+
+   .container-black h1 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+   } 
+
+   .container-black h2 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+   }
+
+   .container-black_left p {
+    font-size: 0.875rem;
+}
+
+    .container-black {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 3rem;
+    color: #fff;
+    background-color: #000000;
+    z-index: 1;
+    margin: -1rem 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem;
+}
+
+    .container-black .boton-mas-info {
+        filter: brightness(0) invert(1);
+        display: flex;
+        align-items: center;
+    }
+
+
+    .main_card-proyectos h2 {
+        margin: 1rem;
+        visibility: visible;
+    }
+
+    .main_card-proyectos .boton-mas-info {
+        filter: var(--filterwhite);
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    section article {
+        position: relative;
+    }
+
+    section article > img {
+        width: 100%;
+        filter: drop-shadow(1);
+    }
+
+    
+    .main_secciones {
+        display: block;
+        margin: 0 0 8rem;
+    }
+
+    .main_secciones-card {
+        width: auto;
+        height: max-content;
+        display: block;
+    }
+
+    .carousel_text-container {
+        display: flex;
+        position: absolute;
+        gap: 1.5rem;
+        bottom: 1rem;
+        color: #fff;
+        padding: 1rem;
+
+    }
+
+    .carousel_text-container h3 {
+        font-size: 1.125rem;
+        position: absolute;
+        top: -1rem;
+    }
+
+    .carousel_text-container div {
+        align-self: flex-end;
+    }
+
+    .botones-carousel {
+        
+        display: flex;
+        justify-content: center;
+        margin: .5rem;
+        gap: 5rem;
+    }
+
+    .botones-carousel img {
+        width: 1.5rem;
+        aspect-ratio: 1;
+    }
+
+    
+
+    .main_competencias-container {
+        display: none;
+    }
+
+    .competencias_y_calendario > h3 {
+        display: none;
+    }
+
+    .main_calendar-container {
+        padding: 0 1rem;
+        margin: 0;
+    }
+    
+    .main_calendar-container > h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        
+    }
+
+    .main_calendar-container .botones-carousel {
+        filter: var(--filterwhite);
+    }
+
+    .botones-calendario {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_calendar-container .botones-carousel p {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    
+    .calendar-main > img {
+        width: 100%;
+    }
+
+    .calendar-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calendar-main .text-calendar {
+        gap: 0;
+    }
+
+    .calendar-main.text-calendar h4 {
+        margin: 1.5rem 0 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .calendar-main .text-calendar h3 {
+        font-size: .875rem;
+        font-weight: 700;
+        margin-bottom: .75rem;
+    }
+    
+    .calendar-main div + p {
+        font-size: .75rem;
+        padding-bottom: 1rem;
+    }
+
+    .calendar-main .boton-mas-info {
+        margin: 1rem 0;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+
+    .arrow-down {
+        margin-bottom: 0;
+    }
+
+    .botones-galeria {
+        position: relative;
+        bottom: 20rem;
+        z-index: 1;
+        filter: var(--filterwhite);
+        justify-content: space-between;
+    }
+    
+
+}
+

@@ -10,13 +10,13 @@
                 <a href="https://www.facebook.com/devaesportsarg/"><img src="recursos/facebook.svg" alt="Facebook logo" class="redes-sociales"></a>
             </li>
             <li>
-            <a href="https://www.instagram.com/devaesportsarg/"><img src="../recursos/instagram.svg" alt="Instagram logo" class="redes-sociales"></a>
+            <a href="https://www.instagram.com/devaesportsarg/"><img src="recursos/instagram.svg" alt="Instagram logo" class="redes-sociales"></a>
             </li>
             <li>
-            <a href="https://twitter.com/devaesportsarg"><img src="#" alt="Twitter logo" class="redes-sociales"></a>
+            <a href="https://twitter.com/devaesportsarg"><img src="recursos/twitter.svg" alt="Twitter logo" class="redes-sociales"></a>
             </li>
             <li>
-            <a href="https://www.youtube.com/channel/UCV5CADvqp-yeTfAiHUcW_VQ"><img src="#" alt="Youtube logo" class="redes-sociales"></a>
+            <a href="https://www.youtube.com/channel/UCV5CADvqp-yeTfAiHUcW_VQ"><img src="recursos/youtube.svg" alt="Youtube logo" class="redes-sociales"></a>
             </li>
         </ul>
 

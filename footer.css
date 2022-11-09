@@ -4,7 +4,7 @@ footer {
     background-color: #000;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 footer h6 {
@@ -30,13 +30,17 @@ footer input[type="submit"] {
 }
 
 footer ul {
+    width: 100%;
     display: flex;
-
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer ul img {
     height: 40px;
     aspect-ratio: 1;
+    list-style: none;
 }
 
 footer label {
@@ -75,5 +79,9 @@ footer p a {
 
 @media (max-width: 58em) {
 
+    footer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
 }

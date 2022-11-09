@@ -24,7 +24,7 @@
             </li>
             <li>
                 <a href="gaming.php">
-                    Inicio
+                    Gaming
                 </a>
             </li>
             <li>
