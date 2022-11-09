@@ -7,10 +7,22 @@
     <meta name="description" content="Asociación abocada a la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.">
     <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina">
     <title>DEVA - Haciendo crecer los e-sports en Argentina</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="nav.js" defer></script>
 </head>
 <body>
-    <?php include("header.php");?>
+    <header>
+
+    <div class="video-deva">
+    <video autoplay muted plays-inline loop id="video-home-deva" alt="Video Institucional DEVA">
+    <source src="recursos/home-video-deva.mp4" type="video/mp4">
+    </video>
+    </div>
+    <?php include("nav.php");?>
+
+    </header>
     <main>
         
     <div class="container-black">
@@ -147,15 +159,17 @@
             <h3>Calendario</h3>
             <div class="botones-carousel" class="botones-calendario">
                     <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
-
+                    <p>Octubre</p>
                     <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
                 </div>
             <div class="calendar-main">
                 
-                <img src="coscu.png" alt="Imagen del streamer Coscu jugando en un evento mientras streamea">
+                <img src="recursos/coscu.png" alt="Imagen del streamer Coscu jugando en un evento mientras streamea">
                 <div>
-                    <h3>Streaming con Coscu</h3>
-                    <h4>Jueves 5</h4>
+                    <div class="calendar-main text-calendar">
+                        <h3>Streaming con Coscu</h3>
+                        <h4>Jueves 5</h4>
+                    </div>
                     <p>De 17hs a 18hs vía Twitch</p>
                     <p>Preparate para aprender los movimientos que llevaron a Coscu a consagrarse como ganador en la tercera jornada de Argentina Game Show Flow 2021.</p>
                 </div>
@@ -167,7 +181,7 @@
 
 
             </div>
-            <div class="calendar_secondary">ç
+            <div class="calendar_secondary">
 
                 <div class="event-date">
                     <p>15 Sab.</p>
@@ -179,7 +193,7 @@
 
             </div>
 
-            <div class="calendar_secondary">ç
+            <div class="calendar_secondary">
 
                 <div class="event-date">
                     <p>15 Sab.</p>
@@ -192,7 +206,7 @@
             </div>
         </div>
 
-        <div class="arrow-down.svg"></div>
+            <div class="arrow-down"></div>
 
 
     </div>

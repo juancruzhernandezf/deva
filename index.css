@@ -1,0 +1,19 @@
+nav ul li:first-of-type {
+    border-bottom: 3px solid #5BE1FF;
+    font-weight: 700;
+
+} 
+
+@media (max-width: 58em) {
+
+    nav ul {
+        padding: 0;
+    }
+    nav ul li:first-of-type {
+        background-color: #5BE1FF;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        color: #000;
+    }
+}

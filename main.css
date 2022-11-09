@@ -11,64 +11,11 @@ html {
 }
 
 
-header {
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 44.72%);
-}
 
 video {
     width: 100%;
     z-index: -1;
     
-}
-
-
-
-
-nav {
-    padding: 0 40px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-#header_menu-icon{
-    display: none;
-}
-
-#logo-deva {
-   width: 167px;
-
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: #fff;
-}
-
-nav ul li:first-of-type {
-    border-bottom: 3px solid #5BE1FF;
-    font-weight: 700;
-
-}
-
-nav ul li {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block; 
-    margin: 0 .75rem;
-    padding: 1rem .75rem .5rem .75rem;
 }
 
 .video-deva {

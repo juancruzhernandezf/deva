@@ -4,10 +4,18 @@
             <input type="email">
             <input type="submit">
         </form>
-        <div class="footer_redes-sociales">
-            <a href="https://www.facebook.com/devaesportsarg/"><img src="#" alt="Facebook logo" class="redes-sociales"></a>
+        <ul class="footer_redes-sociales">
+            <li>
+                <a href="https://www.facebook.com/devaesportsarg/"><img src="#" alt="Facebook logo" class="redes-sociales"></a>
+            </li>
+            <li>
             <a href="https://www.instagram.com/devaesportsarg/"><img src="#" alt="Instagram logo" class="redes-sociales"></a>
+            </li>
+            <li>
             <a href="https://twitter.com/devaesportsarg"><img src="#" alt="Twitter logo" class="redes-sociales"></a>
+            </li>
+            <li>
             <a href="https://www.youtube.com/channel/UCV5CADvqp-yeTfAiHUcW_VQ"><img src="#" alt="Youtube logo" class="redes-sociales"></a>
-        </div>
+            </li>
+        </ul>
     </footer>

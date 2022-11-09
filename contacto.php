@@ -7,17 +7,14 @@
     <meta name="description" content="Asociación abocada a la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.">
     <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina">
     <title>Contactáte con DEVA</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contacto.css">
+    <script src="nav.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="deva.svg" alt="Logo DEVA" id="header_deva-logo">
-        <div id="header_right-icons">
-            <img src="search.svg" alt="Icono Búsqueda">
-            <nav>
-                    <img src="hamburger-menu.svg" alt="Ícono menu" id="header_menu-icon">
-            </nav>
-        </div>
+        <?php include("nav.php");?>
     </header>
 
     <main>
