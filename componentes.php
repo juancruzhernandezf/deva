@@ -219,30 +219,12 @@
                     </a>
                 </div>
             </article>    
-            <a href="proyectos/todos.html">
-                <img src="recursos/flecha-abajo.svg" alt="ver más proyectos" class="arrow_down">
-            </a>
+            <div class="arrow-down"></div>
      </section>
 
     <!-- Fin main_seccion-grilla-->
 
-    <!-- Galería -->
-
-        <section class="main_galeria">
-            <article class="heading-galeria">
-                <h2>galería</h2>
-                <a href="galeria.php">Ver más</a>
-            </article>
-            <article class="imagenes-galeria">
-                <img src="recursos/galeria1.png" alt="Chica gamer jugando en evento Juegos Bonaerenses">
-                <img class="desk" src="recursos/galeria2.png" alt="Chica gamer jugando en AGS2022">
-                <img class="desk" src="recursos/galeria3.png" alt="Equipo CSGO compitiendo en AGS 2022">
-                <button id="anterior"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
-                <button id="siguiente"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
-            </article>                
-        </section>
-
-    <!-- Fin Galería -->
+ 
 
 
 </body>

@@ -984,22 +984,6 @@ margin-bottom: 2%;
         width: 100%;
     }
 
-    .botones-carousel{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 50%;
-        filter: var(--filterwhite);
-    }
-    
-    .botones-carousel button{
-        background-color: transparent;
-        border:none;
-    }
-    
-    .botones-carousel button img{
-        width: 50px;
-    }
 
     .desk{
         display: none;
