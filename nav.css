@@ -34,11 +34,18 @@ nav ul li {
     justify-content: center;
 }
 
+
+
 nav ul li {
     text-decoration: none;
     list-style: none;
     padding: 1rem .75rem .5rem .75rem;
 }
+
+nav ul li:nth-child(7) {
+    padding-right: 0;
+}
+
 
  .primary-navigation { 
     text-decoration: none;
