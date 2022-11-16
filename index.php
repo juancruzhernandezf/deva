@@ -43,7 +43,7 @@
     </div>
     <div class="main_card-proyectos">
         <div class="container_carousel">
-            <h2>PROYECTOS</h2>
+            <h2>Proyectos</h2>
             <section class="carousel">
                 
                 <article class="main_carousel-scroll">

@@ -1,0 +1,671 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --filterwhite: brightness(0) invert(1);
+    --filterblack: brightness(0);
+}
+
+/*/////////////////////////////////////////////////
+////////////COMPONENTES CORE //////////////////////
+////////////////////////////////////////////////*/
+.boton-primario {
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5BE1FF;
+    border: solid 3px #5BE1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: .875rem;
+    width: max-content;
+    padding:  0 .5rem 0 1rem;
+  
+}
+
+.boton-primario p {
+  margin:0;
+}
+
+.boton-primario div {
+    background-image: url(recursos/arrow-right.svg);
+    background-repeat: no-repeat;
+    width: 2rem;
+    aspect-ratio: 1;
+    background-position: center;
+}
+
+/*RESET BUTTON*/
+button {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-spacing: 0;
+    color: #26589F;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.42rem;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    
+}
+
+
+.botones-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+
+
+/*/////////////////////////////////////////////////
+////////////COMPONENTE main_carousel-celeste INICIO//////////
+////////////////////////////////////////////////*/
+
+
+.competencias_y_calendario {
+    background-color: #000000;
+    color: #fff;
+    margin: 0 0 0 0;
+    z-index: -1;
+    padding: 7rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.competencias_y_calendario .botones-carousel {
+    filter: var(--filterwhite);
+    justify-content: space-between;
+    margin: 0 1rem 10rem 1rem;
+}
+    
+
+
+
+.competencias_y_calendario > h3 {
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.main_competencias-container {
+    background-image: url(recursos/juegos-bonaerenses-carousel.png);
+    background-size: cover;
+    display: flex;
+    height: 47rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+}
+
+.container-celeste {
+    background-color: rgba(91, 225, 255, 0.8);
+    padding: 1rem 2rem; 
+}
+
+.competencias_y_calendario > h3 {
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.container-celeste h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.container-celeste > p {
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+.container-celeste .boton-primario {
+    filter: var(--filterwhite);
+}
+
+.container-celeste_textos {
+    width: min-content;
+}
+
+
+@media (max-width: 961px) {
+    .competencias_y_calendario > h3 {
+        display: none;
+        position: relative;
+    }
+
+    .competencias_y_calendario {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .container-celeste .boton-primario {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////
+////////////COMPONENTE main_calendario INICIO//////////
+////////////////////////////////////////////////*/
+
+
+.main_calendar-container {
+    background-color: #000000;
+    color: #fff;
+    z-index: -1;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.competencias_y_calendario > h3 {
+    margin: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.main_calendar-container .botones-carousel {
+    justify-content: flex-start;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    filter: var(--filterwhite);
+    align-items: center;
+}
+
+.main_calendar-container .botones-carousel #anterior-mes,#siguiente-mes {
+    height: 1.5rem;
+}
+
+.main_calendar-container .botones-carousel p {
+    font-weight: 700;
+}
+
+
+.main_calendar-container button img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.main_calendar-container > h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.calendar-main {
+    display: flex;
+    gap: 1rem;
+}
+
+.calendar-main.text-calendar {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.calendar-main.text-calendar h4 {
+    font-size: 2.5rem;
+}
+
+.calendar-main.text-calendar h3 {
+    margin-bottom: 1rem;
+}
+
+.calendar-main p {
+    margin-bottom: 1rem;
+}
+
+.calendar-main .boton-mas-info p {
+    margin: 0;
+}
+.calendar-main > div {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-main a {
+    align-self: flex-end;
+}
+
+.calendar-main .boton-primario p {
+    margin: 0;
+}
+
+.calendar-main img {
+    width: 100%;
+}
+
+.calendar_secondary {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.calendar_secondary .event-date {
+    border: solid 2px #5BE1FF;
+    font-size: .875rem;
+    font-weight: 700;
+    display: flex;
+    width: 4.2rem;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 1rem 0rem 0;
+}
+
+.calendar_secondary h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.arrow-down {
+    background-image: url(recursos/down-arrow.svg);
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin: 3rem;
+}
+
+@media (max-width: 961px) {
+
+
+    .main_calendar-container > h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .main_calendar-container {
+        padding: 0 1rem;
+        margin: 0;
+    }
+
+
+    .main_calendar-container .botones-carousel {
+        filter: var(--filterwhite);
+        margin: 1rem;
+    }
+
+    .main_calendar-container .botones-carousel p {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .botones-carousel.botones-calendario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .calendar-main > img {
+        width: 100%;
+    }
+
+    .calendar-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calendar-main .text-calendar {
+        gap: 0;
+    }
+
+    .calendar-main.text-calendar h4 {
+        margin: 1.5rem 0 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .calendar-main .text-calendar h3 {
+        font-size: .875rem;
+        font-weight: 700;
+        margin-bottom: .75rem;
+    }
+    
+    .calendar-main div + p {
+        font-size: .75rem;
+    }
+
+    .calendar-main .boton-mas-info {
+        margin: 1rem 0;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+
+    
+    .calendar-main .boton-mas-info {
+        margin: 1rem 0;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+}
+
+
+
+/*/////////////////////////////////////////////////
+////////////COMPONENTE main_calendario FIN//////////
+////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*/////////////////////////////////////////////////
+////////////COMPONENTE main_secciones INICIO /////
+////////////////////////////////////////////////*/
+
+.main_secciones {
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.main_secciones a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF3387;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:961px) {
+  
+  .main_secciones {
+        display: block;
+        margin: 0 0 8rem;
+    }
+
+    .main_secciones a {
+        width: auto;
+        height: 5rem;
+        display: block;
+    }
+}
+
+/*/////////////////////////////////////////////////
+////////////COMPONENTE main_secciones FIN /////
+////////////////////////////////////////////////*/
+
+
+/*////////////////////////////////////////////////////////
+////////////COMPONENTE main_card-magenta-info INICIO /////
+////////////////////////////////////////////////////////*/
+
+/* si se lo quiere dejar centrado, el body va a tener que tener estas propiedades 
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+*/
+
+.main_card-magenta-info {
+    background-color: #FF3387;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.main_card-magenta-info h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.main_card-magenta-info p {
+    font-size: 1rem;
+}
+
+.main_card-magenta-info .boton-primario {
+    filter: var(--filterwhite);
+    justify-content: center;
+    margin: 1rem 0 0;
+    align-self: flex-end;
+}
+
+@media (max-width:961px) {
+  
+    .main_card-magenta-info {
+        background-color: #FF3387;
+        color: #fff;
+        margin: 1rem;
+        padding: 1rem;
+        width: auto;
+    }
+    
+    .main_card-magenta-info h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    
+    .main_card-magenta-info .boton-primario {
+        filter: var(--filterwhite);
+        width: 100%;
+        justify-content: center;
+        margin: 1rem 0 0;
+    }
+    
+  }
+
+/*////////////////////////////////////////////////////////
+////////////COMPONENTE main_card-magenta-info FIN /////
+////////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////////////////////////
+////////////COMPONENTE carousel_principal INICIO /////
+////////////////////////////////////////////////////////*/
+
+
+.carousel_principal {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    border: solid 3px #5BE1FF;
+    margin: 2rem 4rem 0;
+  }
+  
+  
+  
+  .carousel_principal h2 {
+    margin: 0;
+    padding: 0 1rem;
+    top: -1.4rem;
+    left: 3rem;
+    width: min-content;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .carousel_principal-izquierda img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  
+  .carousel_principal-derecha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .carousel_principal-derecha h3 {
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .carousel_principal-derecha > p {
+    margin: 0;
+  }
+  
+  .carousel_principal-derecha .boton-primario {
+    align-self: flex-end;
+  }
+  
+  .container-carousel-principal .botones-carousel {
+    padding-top: 2rem;
+  }
+  
+  
+  @media (max-width: 961px) {
+  
+    .carousel_principal {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      padding: 2rem;
+      border: solid 3px #5BE1FF;
+      margin: 0;
+    }
+  
+  
+  
+    .carousel_principal h2 {
+      font-size: 1.125rem;
+      position: relative;
+      color: #000;
+      margin: 1rem 2rem;
+      top: 0;
+      left: 0;
+      padding: 0;
+  }
+  
+  
+  .carousel_principal {
+      border: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+  }
+  
+  .container-carousel-principal > .botones-carousel {
+    padding: 0;
+    margin-top: .5rem;
+    gap: 7rem; 
+  }
+  
+  
+  .container-carousel-principal > .botones-carousel img {
+    width: 1.5rem;
+    height: auto;
+  }
+  
+  .carousel_principal-derecha {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    bottom: 0;
+    color: #fff;
+  }
+  
+  .carousel_principal-derecha h3 {
+   font-size: 1rem;
+   max-width: fit-content;
+   margin: 0;
+  }
+  
+  .carousel_principal-derecha > div p {
+    font-size: .75rem;
+  
+  }
+  
+  
+  
+  .carousel_principal .boton-primario {
+    filter: var(--filterwhite);
+    margin: 0 2rem .5rem 0;
+    gap: 0;
+  }
+  
+  .carousel_principal .boton-primario p {
+    max-width: 100%;
+  }
+  
+  .container-carousel-principal {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .carousel_text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+  }
+  
+  .carousel_text-container p {
+    font-size: .875rem;
+    width: 100%;
+  }
+  
+  .carousel_text-container div {
+    align-self: flex-end;
+  }
+  
+  }
+
+
+
+
+

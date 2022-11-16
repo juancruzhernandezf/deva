@@ -19,7 +19,7 @@
 
     <main>
         <h1>
-            Contactáte
+            Contactate
         </h1>
         <h2>¡Dejános tu consulta, y nos pondremos en contacto con vos!</h2>
         <form action="enviarMail.php" method="post">
