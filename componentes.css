@@ -146,16 +146,15 @@ button {
 
 
 @media (max-width: 961px) {
-    .competencias_y_calendario > h3 {
+     .competencias_y_calendario > h3 {
         display: none;
         position: relative;
     }
 
     .competencias_y_calendario {
-        position: relative;
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
-    }
+    } 
 
     .container-celeste .boton-primario {
         width: 100%;
@@ -665,6 +664,350 @@ body {
   
   }
 
+
+  /* Main Sección Grilla */
+
+.main_seccion-grilla{
+    background-color: black;
+    color: #F5F5F5;
+    padding: 3% 10% 3% 10%;
+    text-align: center;
+}
+
+.main_seccion-grilla h2{
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.heading-grilla{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+#filtro{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20%;
+    font-size: 80%;
+}
+
+.container_grilla {
+    margin-bottom: 5%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px 20px; 
+    grid-template-areas: 
+      ". ."
+      ". .";
+  }
+
+.container{
+    border: 0.4rem solid #5BE1FF;
+    box-sizing: border-box;
+    padding:5%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.container img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.container div{
+    margin: 3% 0 5% 0;
+    height: 100%;
+    max-height: 150px;
+}
+
+.container h3{
+    text-transform: uppercase;
+    font-size: 130%;
+    font-weight: 600;
+  
+}
+
+.container div p{
+    margin-top: 3%;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.container a{
+    text-transform: capitalize;
+    font-size: 100%;
+    font-weight: 400;
+    text-align: right;
+    color: #F5F5F5;
+    font-size: 80%;
+    margin-top: 5%;
+}
+
+/* Fin Main Sección Grilla */
+
+/* Galería */
+
+.main_galeria
+{
+    position: relative;
+}
+
+.heading-galeria{
+width: 100%;
+display: flex;
+flex-direction: row;
+padding-left: 10%;
+padding-right: 10%;
+justify-content: space-between;
+align-items: baseline;
+margin-bottom: 2%;
+}
+
+.heading-galeria h2{
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 700;
+    color: black;
+}
+
+.heading-galeria a{
+    font-size: 0.8rem;
+    color: black;   
+}
+
+.imagenes-galeria{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.imagenes-galeria img{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.imagenes-galeria button{
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    top: 50%;
+    filter: var(--filterwhite);
+}
+
+#anterior{
+    width: 10%;
+}
+
+#siguiente{
+    width: 10%;
+    right: 0%;
+}
+
+/*Fin Galería*/
+
+
+
+@media (max-width: 961px){
+
+    
+    /*Carousel Principal*/
+
+    .carousel_principal {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 2rem;
+        border: solid 3px #5BE1FF;
+        margin: 0;
+    }
+        
+    .carousel_principal h2 {
+        font-size: 1.125rem;
+        position: relative;
+        color: #000;
+        margin: 1rem 2rem;
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+    
+    
+    .carousel_principal {
+        border: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .container-carousel-principal > .botones-carousel {
+    padding: 0;
+    margin-top: .5rem;
+    gap: 7rem; 
+    }
+    
+    
+    .container-carousel-principal > .botones-carousel img {
+    width: 1.5rem;
+    height: auto;
+    }
+    
+    .carousel_principal-derecha {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    bottom: 0;
+    color: #fff;
+    }
+    
+    .carousel_principal-derecha h3 {
+    font-size: 1rem;
+    max-width: fit-content;
+    margin: 0;
+    }
+    
+    .carousel_principal-derecha > div p {
+    font-size: .75rem;
+    
+    }
+        
+    .carousel_principal .boton-primario {
+    filter: var(--filterwhite);
+    margin: 0 2rem .5rem 0;
+    gap: 0;
+    }
+    
+    .carousel_principal .boton-primario p {
+    max-width: 100%;
+    }
+    
+    .container-carousel-principal {
+    border: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    
+    .carousel_text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+    }
+    
+    .carousel_text-container p {
+    font-size: .875rem;
+    width: 100%;
+    }
+    
+    .carousel_text-container div {
+    align-self: flex-end;
+    }
+
+    /* Fin Carousel Principal*/
+
+    /*Main Sección Grilla */
+
+    .main_seccion-grilla{
+        padding: 5%  ;
+    }
+
+    .main_seccion-grilla h2{
+        text-transform: uppercase;
+        font-size: 100%;
+        font-weight: 700;
+    }
+
+    #filtro{
+        font-size: 70% ;
+    }
+    
+    .main_seccion-grilla a img{
+       display: none;
+    }
+
+    .container_grilla {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+    .container{
+        border: 0.2rem solid #5BE1FF;
+        padding:5%;    
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container div p{
+        margin-top: 2%;
+        font-size: 90%;
+        font-weight: 100;
+    }
+
+    .container a{
+        margin-top: 2%;
+    }
+
+    /* Fin Main Sección Grilla */
+
+    /* Galería */
+
+    .heading-galeria h2{
+        text-transform: uppercase;
+        font-size: 100%;
+        font-weight: 700;
+        color: black;
+    }
+
+    .imagenes-galeria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenes-galeria img{
+        width: 100%;
+    }
+
+    .botones-carousel{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+        filter: var(--filterwhite);
+    }
+    
+    .botones-carousel button{
+        background-color: transparent;
+        border:none;
+    }
+    
+    .botones-carousel button img{
+        width: 50px;
+    }
+
+    .desk{
+        display: none;
+    }
+
+    /* Galería */
+
+}
 
 
 

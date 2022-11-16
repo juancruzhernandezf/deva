@@ -167,7 +167,82 @@
     </div>
 
 
+    <!-- inicio componente main_seccion-grilla-->
 
+        <section class="main_seccion-grilla">           
+            <article class="heading-grilla">
+                <h2>proyectos en curso</h2> 
+                <div id="filtro">
+                    <p>filtrar</p>
+                    <img src="recursos/chevron-down.svg" alt="chevron filtro">
+                </div>
+            </article>
+            <article class="container_grilla">
+                <div class="container">
+                    <img src="recursos/proyectos-arena-gamer.png" alt="arena gamer - tecnópolis">
+                    <div>
+                        <h3>arena gamer - tecnópolis</h3>
+                        <p>El parque temático abrio puertas a su primer arena gamer totalmente gratuita y abierta al público y sus comunidades.</p>
+                    </div>
+                    <a href="proyectos/arena_gamer.html">
+                        <p>ver más</p>
+                    </a>
+                </div>
+                <div class="container">
+                    <img src="recursos/proyectos-deporte-olimpico.png" alt="reconocer los esports como deporte olimpico">
+                    <div>
+                        <h3>reconocer los esports como deporte olímpico</h3>
+                        <p>Impulsar la creación de una ley que regule los esports y las personas que trabajan dentro del ámbito digital de manera profesional.</p>
+                    </div>
+                    <a href="proyectos/esports_olimpicos.html" class="boton_mas">
+                        <p>ver más</p>
+                    </a>
+                </div>
+                <div class="container">
+                    <img src="recursos/proyectos-torneo-femenino.png" alt="torneo femenino para ligas mayores">
+                    <div>
+                        <h3>torneo femenino para ligas mayores</h3>
+                        <p>En noviembre se llevó a cabo el evento femenino más importante del año, con el objetivo de fomentar la participación de las mujeres en los esports.</p>
+                    </div>                    
+                    <a href="proyectos/torneo_femenino_mayores.html" class="boton_mas">
+                        <p>ver más</p>
+                    </a>
+                </div>
+                <div class="container">
+                    <img src="recursos/proyectos-adicciones.png" alt="videojuegos, adicciones y su relación">
+                    <div>
+                        <h3>videojuegos, adicciones y su relación</h3>
+                        <p>Charla preventiva sobre la adicción a la pantalla desde temprana edad y posibles mecanismos de acción para la prevención de esta problemática.</p>
+                    </div>                    
+                    <a href="proyectos/videojuegos_adicciones.html" class="boton_mas">
+                        <p>ver más</p>
+                    </a>
+                </div>
+            </article>    
+            <a href="proyectos/todos.html">
+                <img src="recursos/flecha-abajo.svg" alt="ver más proyectos" class="arrow_down">
+            </a>
+     </section>
+
+    <!-- Fin main_seccion-grilla-->
+
+    <!-- Galería -->
+
+        <section class="main_galeria">
+            <article class="heading-galeria">
+                <h2>galería</h2>
+                <a href="galeria.php">Ver más</a>
+            </article>
+            <article class="imagenes-galeria">
+                <img src="recursos/galeria1.png" alt="Chica gamer jugando en evento Juegos Bonaerenses">
+                <img class="desk" src="recursos/galeria2.png" alt="Chica gamer jugando en AGS2022">
+                <img class="desk" src="recursos/galeria3.png" alt="Equipo CSGO compitiendo en AGS 2022">
+                <button id="anterior"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+                <button id="siguiente"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+            </article>                
+        </section>
+
+    <!-- Fin Galería -->
 
 
 </body>
