@@ -12,6 +12,9 @@ html {
 
 body {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
 }
 
 video {
@@ -19,6 +22,17 @@ video {
     z-index: -1;
     
 }
+
+
+.video-deva {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+
 
 :root {
     --filterwhite: brightness(0) invert(1);
@@ -46,13 +60,7 @@ video {
     background-position: center;
 }
 
-.video-deva {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    z-index: -1;
-    width: 100%;
-}
+
 
 
 main {

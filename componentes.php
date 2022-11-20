@@ -135,19 +135,19 @@
 <!-- COMPONENTE main_secciones -->
 
 
-        <div class="main_secciones">
-        <a href="investigaciones.php"><div class="main_secciones-card">
-           <h5>Investigaciones</h5>
-        </div></a>
-        <a href="streamers.php"><div class="main_secciones-card">
-            <h5>Streamers</h5>
+    <div class="main_secciones">
+            <a href="investigaciones.php"><div class="main_secciones-card">
+            <h5>Investigaciones</h5>
+            </div></a>
+            <a href="streamers.php"><div class="main_secciones-card">
+                <h5>Streamers</h5>
+            </div>
+                </a>
+                <a href="prensa.php"><div class="main_secciones-card">
+                    <h5>Prensa</h5>
+                </div>
+                </a>
         </div>
-        </a>
-        <a href="prensa.php"><div class="main_secciones-card">
-            <h5>Prensa</h5>
-        </div>
-        </a>
-    </div>
 
         
 

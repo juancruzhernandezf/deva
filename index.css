@@ -4,7 +4,63 @@ nav ul li:first-of-type {
 
 } 
 
-@media (max-width: 58em) {
+
+
+
+.container-black {
+    margin: -5rem 2rem 2rem ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    color: #fff;
+    background-color: #000000;
+    z-index: 1000;
+    padding: 76px 135px;
+}
+
+
+.container-black_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.container-black_left p {
+    font-size: 1.5rem;
+}
+
+
+.container-black h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.container-black .boton-primario {
+    align-self: flex-end;
+    filter: var(--filterwhite);
+}
+
+.main_card-magenta-wrapper {
+    margin-top: 1rem;
+}
+
+.main_calendar-container {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+
+.competencias_y_calendario {
+    padding-bottom: 0;
+    margin-top: -5rem;
+}
+
+
+
+@media (max-width: 961px) {
 
     nav ul {
         padding: 0;
@@ -16,4 +72,28 @@ nav ul li:first-of-type {
         align-items: center;
         color: #000;
     }
+
+    .container-black {
+        flex-direction: column-reverse;
+        margin: -5rem 1rem 2rem;
+        padding: 3rem;
+    }
+    .container-black h1 {
+        clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+    }
+
+    .competencias_y_calendario {
+        padding-bottom: 0;
+        margin-top: 1rem;
+    }
+
+
+
+
 }

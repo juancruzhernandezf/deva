@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,16 @@
     <meta name="description" content="Asociación abocada a la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.">
     <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina">
     <title>DEVA - Haciendo crecer los e-sports en Argentina</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="componentes.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
     <script src="nav.js" defer></script>
+    <title>DEVA - Haciendo crecer los e-sports en Argentina</title>
 </head>
 <body>
-    <header>
+    
+<header>
 
     <div class="video-deva">
     <video autoplay muted plays-inline loop id="video-home-deva" alt="Video Institucional DEVA">
@@ -24,129 +26,85 @@
     <?php include("nav.php");?>
 
     </header>
+
     <main>
-        
-    <div class="container-black">
-        <div class="container-black_right">
-            <H1>DEVA es el gran motor que promociona y desarrolla los deportes electrónicos en el país.</H1>
-            <a href="about.html" class="boton-mas-info">
-                <p>+Info</p>
-                <div class="arrow-right"></div>
-            </a>
+
+        <div class="container-black">
+            <div class="container-black_right">
+                <h1>DEVA es el gran motor que promociona y desarrolla los deportes electrónicos en el país.</h1>
+                <a href="about.html" class="boton-primario">
+                    <p>+Info</p>
+                    <div class="arrow-right"></div>
+                </a>
+            </div>
+            <div class="container-black_left">
+                <p>Somos <strong>DEVA</strong>, una asociación civil nacida el 7 de Mayo de 2017 y estamos abocados a promocionar y trabajar en pos de la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.  Está conformado por un grupo de jóvenes profesionales que comparten una gran pasión por el deporte y amor por los videojuegos.</p>
+            </div>
         </div>
-        <div class="container-black_left">
-            <h2>DEVA</h2>
-            <p>Somos DEVA, una asociación civil nacida el 7 de Mayo de 2017 y estamos abocados a promocionar y trabajar en pos de la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.  Está conformado por un grupo de jóvenes profesionales que comparten una gran pasión por el deporte y amor por los videojuegos.</p>
-        </div>    
-        
-            
-    </div>
-    <div class="main_card-proyectos">
-        <div class="container_carousel">
-            <h2>Proyectos</h2>
-            <section class="carousel">
-                
-                <article class="main_carousel-scroll">
+
+        <section class="container-carousel-principal">
+            <article class="carousel_principal">
+                <h2>Proyectos</h2>
+
+                <div class="carousel_principal-izquierda">
                     <img src="recursos/arena_gamer.png" alt="Fotografía de computadoras en Arena Gamer">
+                </div>
+                <div class="carousel_principal-derecha">
                     <div class="carousel_text-container">
-                        <h3>Arena Gamer - Tecnópolis</h3>
-                        <p>El parque temático abrió las puertas de su primera arena gamer totalmente gratuita y abierta al público y sus comunidades.</p>
-                        <div>
-                            <a class="boton-mas-info" href="proyectos/arena-gamer.php">
-                            <p>Ver más</p>
-                            <div class="icon-arrow-right"></div>
-                            </a>
-                        </div>
+                    <h3>Arena Gamer - Tecnópolis</h3>
+                    <p>El parque temático abrió las puertas de su primera arena gamer totalmente gratuita y abierta al público y sus comunidades.</p>
                     </div>
-                </article>
-                <!-- COMENTAMOS ESTO PORQUE NO SABEMOS HACER EL JAVASCRIPT PARA EL CAROUSEL, ASI QUE QUEDA FIJO 
-                    <article class="main_carousel-scroll">
-                        <article class="main_carousel-scroll">
-                    <img src="recursos/ags.png" alt="Fotografía de computadoras en Arena Gamer">
-                    <div class="carousel_text-container">
-                        <h3>AGS 2022</h3>
-                        <P>Durante el fin de semana que se dará lugar el AGS FLOW 2022 tendremos competencias de alto nivel, entre ellas, estarán nuestros seleccionados de CSGO, E-Football y Mobile Legends.</P>
-                        <div>
-                            <a class="boton-mas-info" href="proyectos/arena-gamer.html">
-                            <p>Ver más</p>
-                            <div class="icon-arrow-right"></div>
-                            </a>
-                        </div>
-                    </div>
-                </article>
+                    <a class="boton-primario" href="proyectos/arena-gamer.php">
+                        <p>Ver más</p>
+                        <div class="icon-arrow-right"></div>
+                    </a>
+                </div>
+            </article>
+            <div class="botones-carousel">
+                <button id="anterior-proyecto"><img src="recursos/chevron-left.svg" alt="Anterior Proyecto"></button>
+                <button id="siguiente-proyecto"><img src="recursos/chevron-right.svg" alt="Siguiente Proyecto"></button>
+            </div>
+        </section>
+        
+        <div class="main_card-magenta-wrapper">
+            
+            <div class="main_card-magenta-info">
+            <h3>Certificaciones</h3>
+                <p>Enterate de todo lo que necesitás saber para obtener la certificación DEVA y los requisitos para inscribirte.</p>
+                <a href="certificaciones.html" class="boton-primario">
+                    <p>+Info</p>
+                    <div class="icon-arrow-right"></div>
+                </a>
 
-                <article class="main_carousel-scroll">
-                        <article class="main_carousel-scroll">
-                    <img src="recursos/bonaerenses.png" alt="Fotografía de equipo de Gaming en los Juegos Bonaerenses">
-                    <div class="carousel_text-container">
-                        <h3>Juegos Bonaerenses</h3>
-                        <P>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jóvenes de toda la Provincia de Bs As.</P>
-                        <div>
-                            <a class="boton-mas-info" href="proyectos/juegos-bonaerenses.php">
-                            <p>Ver más</p>
-                            <div class="icon-arrow-right"></div>
-                            </a>
-                        </div>
-                    </div>
-                </article>
+            </div>
 
-                <article class="main_carousel-scroll">
-                        <article class="main_carousel-scroll">
-                    <img src="recursos/ejuar.png" alt="Fotografía de computadoras en los Juegos Universitarios Argentinos">
-                    <div class="carousel_text-container">
-                        <h3>EJUAR</h3>
-                        <P>Los Juegos Universitarios Argentinos son la competencia oficial del Ministerio de Educación en conjunto con la Federación del Deporte Universitario Argentino con más de 160 universidades participantes.</P>
-                        <div>
-                            <a class="boton-mas-info" href="proyectos/EJUAR.php">
-                            <p>Ver más</p>
-                            <div class="icon-arrow-right"></div>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                -->
-            </section>
         </div>
-    </div>
-    <div class="botones-carousel">
-        <button id="anterior-proyecto"><img src="recursos/chevron-left.svg" alt="Anterior Proyecto"></button>
-        <button id="siguiente-proyecto"><img src="recursos/chevron-right.svg" alt="Siguiente Proyecto"></button>
-    </div>
-    <!-- Hasta acá el carousel de proyectos-->
 
-    <div class="main_card-magenta">
-        <h3>Certificaciones</h3>
-            <p>Enterate de todo lo que necesitás saber para obtener la certificación DEVA y los requisitos para inscribirte.</p>
-            <a href="certificaciones.html" class="boton-mas-info">
-                <p>+Info</p>
-                <div class="icon-arrow-right"></div>
-            </a>
-    </div>
-
-    <div class="competencias_y_calendario">
+        <div class="competencias_y_calendario">
     <h3>Competencias</h3>
     <!-- Este container que sigue contiene la imagen del carousel en el css -->
         
         <div class="main_competencias-container">
 
         
-            <div class="competencias_juegos-bsas">
-            <div>
-                <div class="botones-carousel">
-                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+            <div class="competencias_carousel">
 
-                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
-                </div>
-                <div class="container-celeste">
-                        <h4>
-                            Juegos Bonaerenses
-                        </h4>
-                        <p>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jovenes de toda la Provincia de Bs As.</p>
-                    <a href="juegos-bonaerenses.php" class="boton-mas-info">
-                        <p>Ver más</p>
-                        <div class="icon-arrow-right"></div>
-                    </a>
-                </div>
+                    <div class="botones-carousel">
+                        <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+
+                        <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                    </div>
+                    <div class="container-celeste">
+                            <h4>
+                                Juegos Bonaerenses
+                            </h4>
+                            <p>Desde 2017 hemos logrado incorporar a los Deportes Electrónicos como disciplina deportiva dentro de los Juegos Bonaerenses, una competencia donde participan más de 340 mil jovenes de toda la Provincia de Bs As.</p>
+                        <a href="juegos-bonaerenses.php" class="boton-primario">
+                            <p>Ver más</p>
+                            <div class="icon-arrow-right"></div>
+                        </a>
+                    </div>
+            </div>        
         </div>
 
 
@@ -155,13 +113,15 @@
 
         </div>
 
+
+    </div>
 
         <div class="main_calendar-container">
             <h3>Calendario</h3>
             <div class="botones-carousel botones-calendario" >
-                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+                    <button id="anterior-mes"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
                     <p>Octubre</p>
-                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                    <button id="siguiente-mes"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
                 </div>
             <div class="calendar-main">
                 
@@ -176,7 +136,7 @@
                     <p>Preparate para aprender los movimientos que llevaron a Coscu a consagrarse como ganador en la tercera jornada de Argentina Game Show Flow 2021.</p>
                 </div>
 
-                    <a href="streaming-coscu.php" class="boton-mas-info">
+                    <a href="streaming-coscu.php" class="boton-primario">
                         <p>Ver más</p>
                         <div class="icon-arrow-right"></div>
                     </a>
@@ -199,7 +159,7 @@
             <div class="calendar_secondary">
 
                 <div class="event-date">
-                    <p>15 Sab.</p>
+                    <p>28 Mar.</p>
                 </div>
                 <div>
                     <h5>Nuevas tecnicas de ataque en LOL con Sabrina Carnevale</h5>
@@ -207,68 +167,52 @@
                 </div>
 
             </div>
-        </div>
-
             <div class="arrow-down"></div>
-
-        
-
-
-    </div>
-
-    
-    
-
-
-    <div class="main_secciones">
-        <div class="main_secciones-card">
-            <h5>Investigaciones</h5>
         </div>
-        <div class="main_secciones-card">
-            <h5>Streamers</h5>
-        </div>
-        <div class="main_secciones-card">
-            <h5>Prensa</h5>
-        </div>
-    </div>
 
-
-    <section class="main_galeria">
-            <article>
-                <div class="heading-galeria"><h2>
-                    Galería
-                </h2>
-                <a href="galeria.php">Ver más</a>
+        <div class="main_secciones">
+            <a href="investigaciones.php">  
+                <div class="main_secciones-card">
+                    <h5>Investigaciones</h5>
                 </div>
-                <div class="imagenes-galeria">
-                <img src="recursos/galeria1.png" alt="Chica gamer jugando en evento Juegos Bonaerenses">
-                <img src="recursos/galeria2.png" alt="Chica gamer jugando en AGS2022">
-                <img src="recursos/galeria3.png" alt="Equipo CSGO compitiendo en AGS 2022">
-                </div>
-                <div class="botones-carousel botones-galeria">
-                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
-                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
-                </div>
-            </article>
-        </section>
-
-               
-
-    <div class="main_card-magenta">
-        <h3>Contactate con DEVA</h3>
-            <p>Si estás interesado en saber un poco más de nosotros, o tenés una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
-            <a href="contacto.html" class="boton-mas-info">
-                <p>+INFO</p>
-                <div class="icon-arrow-right"></div>
             </a>
-    </div>
+            <a href="streamers.php">
+                <div class="main_secciones-card">
+                    <h5>Streamers</h5>
+                </div>
+            </a>
+                <a href="prensa.php">
+                    <div class="main_secciones-card">
+                        <h5>Prensa</h5>
+                    </div>
+                </a>
+        </div>
+
+    <!-- GALERIA ESPACIO -->
+
+    <div class="main_card-magenta-wrapper">
+            
+            <div class="main_card-magenta-info">
+            <h3>Contactate con DEVA</h3>
+                <p>Si estás interesado en saber un poco más de nosotros, o tenés una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
+                <a href="certificaciones.html" class="boton-primario">
+                    <p>+Info</p>
+                    <div class="icon-arrow-right"></div>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+    <?php include('footer.php'); ?>
+
+
 
     </main>
 
-    <?php include('footer.php');?>
 
-    <script src="index.js"></script>
 
 </body>
-
 </html>

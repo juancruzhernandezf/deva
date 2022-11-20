@@ -1,7 +1,7 @@
 <footer>
         
     <div>
-        <img src="recursos/deva.svg" alt="Logo DEVA" id="logo-deva">
+        <img src="recursos/deva.svg" alt="Logo DEVA" id="logo-deva-footer">
         <div id="newsletter">
             <h6>Suscribite al Newsletter</h6>
             <form action="newsletter.php" method="post">
@@ -10,6 +10,8 @@
                 <input type="submit" value="Enviar">
             
             </form>
+            <p><a href="terms.php">Términos y condiciones</a> | <a href="terms.php">Aviso Legal</a> | <a href="terms.php">Mapa de Sitio</a> | Todos los derechos reservados</p>
+            <p> © Asociación de Deportes Electrónicos y Videojuegos (DEVA) 2018 All right reserved.</p>
         </div>
         <ul class="footer_redes-sociales">
             <li>
@@ -25,8 +27,9 @@
             <a href="https://www.youtube.com/channel/UCV5CADvqp-yeTfAiHUcW_VQ"><img src="recursos/youtube.svg" alt="Youtube logo" class="redes-sociales"></a>
             </li>
         </ul>
+
+        
         </div>
 
-        <p><a href="terms.php">Términos y condiciones</a> | <a href="terms.php">Aviso Legal</a> | <a href="terms.php">Mapa de Sitio</a> | Todos los derechos reservados</p>
-        <p> © Asociación de Deportes Electrónicos y Videojuegos (DEVA) 2018 All right reserved.</p>
+       
     </footer>
