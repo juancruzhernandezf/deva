@@ -157,15 +157,20 @@
 <!-- COMPONENTE main_card-magenta-info -->
 
 
+<div class="main_card-magenta-wrapper">
+            
     <div class="main_card-magenta-info">
-        <h3>Certificaciones</h3>
-            <p>Enterate de todo lo que necesitás saber para obtener la certificación DEVA y los requisitos para inscribirte.</p>
-            <a href="certificaciones.html" class="boton-primario">
-                <p>+Info</p>
-                <div class="icon-arrow-right"></div>
-            </a>
+        <h3>Contactate con DEVA</h3>
+        <p>Si estás interesado en saber un poco más de nosotros, o tenés una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
+
+        <a href="certificaciones.html" class="boton-primario">
+            <p>+Info</p>
+            <div class="icon-arrow-right"></div>
+        </a>
+
     </div>
 
+</div>
 
     <!-- inicio componente main_seccion-grilla-->
 

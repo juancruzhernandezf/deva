@@ -449,14 +449,20 @@ video {
 ////////////COMPONENTE main_card-magenta-info INICIO /////
 ////////////////////////////////////////////////////////*/
 
-/* si se lo quiere dejar centrado, el body va a tener que tener estas propiedades 
+/* si se lo quiere dejar centrado, el ,css de su pagina va a tener que tener estas propiedades 
+
 */
+
 
 .main_card-magenta-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
+
 
 
 
