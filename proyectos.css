@@ -1,0 +1,148 @@
+/*/////////////////////////////////////////////////
+////////////COMPONENTE heading_principal //////////
+////////////////////////////////////////////////*/
+
+.heading_principal{
+  background-image: url(recursos/proyectos-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 38%;
+  color: #F5F5F5;
+}
+
+.heading_principal article{
+  background-color: rgba(91, 225, 255, 0.8);
+  backdrop-filter: blur(2px);
+  padding: 2rem 8rem 2rem 8rem; 
+}
+
+.heading_principal article h1{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1%;
+}
+
+.heading_principal p{
+font-size: 130%;
+font-weight: 400;
+}
+
+@media (max-width: 961px){
+
+  /*heading principal*/
+
+  .heading_principal article h1{
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin-bottom: 1%;
+  }
+  
+  .heading_principal p{
+  font-size: 90%;
+  font-weight: 400;
+  margin-bottom: 3%;
+  }
+
+  .heading_principal article{
+      padding: 1rem 1rem 1rem 1rem; 
+  }
+}
+
+.competencias_y_calendario {
+    background-color: #FFFFFF;
+    color: #fff;
+    margin: 0 0 0 0;
+    z-index: -1;
+    padding: 7rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.competencias_y_calendario .botones-carousel {
+    filter: var(--filterwhite);
+    justify-content: space-between;
+    margin: 0 1rem 10rem 1rem;
+}
+    
+
+/*////////////////////////////////////////////////////////////////
+////////////COMPONENTE competencias_y_calendario INICIO//////////
+////////////////////////////////////////////////////////////////*/
+
+
+.competencias_y_calendario > h3 {
+    margin: 4rem;
+	margin-left: 8rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+	color: #000000;
+}
+
+.main_competencias-container {
+    background-image: url("recursos/torneo_discapacitados.png");
+    background-size: cover;
+    display: flex;
+    height: 47rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+}
+
+.container-celeste {
+    background-color: rgba(91, 225, 255, 0.8);
+    padding: 1rem 2rem; 
+}
+
+.container-celeste h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.container-celeste > p {
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+.container-celeste .boton-primario {
+    filter: var(--filterwhite);
+}
+
+.container-celeste_textos {
+    width: min-content;
+}
+
+
+@media (max-width: 961px) {
+     .competencias_y_calendario > h3 {
+        position: relative;
+    }
+
+    .competencias_y_calendario {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .container-celeste .boton-primario {
+        width: 100%;
+    }
+}
+
+/*////////////////////////////////////////////////////////////////
+////////////COMPONENTE main_card-magenta-info INICIO//////////
+////////////////////////////////////////////////////////////////*/
+
+
+.main_card-magenta-info {
+z-index: 1;
+margin-top: -3rem;
+}
+
+.card_magenta-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
