@@ -303,13 +303,9 @@ video {
 }
 
 .arrow-down {
-    background-image: url(recursos/down-arrow.svg);
-    height: 2rem;
-    width: 2rem;
-    background-repeat: no-repeat;
-    align-self: center;
-    margin: 3rem;
-}
+        align-self: center;
+        filter: var(--filterwhite);
+    }
 
 @media (max-width: 961px) {
 
@@ -382,6 +378,12 @@ video {
         margin: 1rem 0;
         align-self: flex-end;
         cursor: pointer;
+    }
+    
+    .arrow-down {
+        width: 50%;
+        align-self: center;
+        filter: var(--filterwhite);
     }
 }
 
