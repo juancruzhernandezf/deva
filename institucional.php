@@ -92,7 +92,11 @@
                     </a>
                 </div>
             </article>    
-            <div class="arrow-down"></div>
+            <button>
+                <div class="arrow-down">
+                    <img src="recursos/arrow_down.svg" alt="ver más">
+                </div>
+            </button> 
      </section>
 		
 	</main>
