@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVA - Académico</title>
-    <link rel="stylesheet" href="componentes.css">
-    <link rel="stylesheet" href="academico.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/academico.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="nav.js" defer></script>
 </head>
 <body>
@@ -52,7 +52,7 @@
     <!-- Fin Carrousel 1-->
 
     <!-- Se parte del Equipo -->
-    <section class="card_magenta-wrapper">
+    <section class="main_card-magenta-wrapper">
         <article class="main_card-magenta-info">
                 <h3>Sé parte del equipo</h3>
                     <p>Postulate para un puesto de colaborador voluntario en DEVA, la cual es una Asociación Civil sin fines de lucro. </p>
@@ -160,7 +160,7 @@
     <!-- Fin Galería -->
 
     <section class="contacto">
-        <article class="card_magenta-wrapper">
+        <article class="main_card-magenta-wrapper">
             <div class="main_card-magenta-info">
                 <h3>Contactate con DEVA</h3>
                     <p>Si estás interesado en saber un poco más de nosotros, o tenes una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
@@ -174,13 +174,8 @@
    
     </main>
 
-    <footer>
+    <?php include('footer.php');?>
 
-        <?php include('footer.php');?>
-
-    </footer>
-
-    <script src="index.js"></script>
 
 </body>
 </html>
