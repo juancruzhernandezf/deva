@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Asociación abocada a la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.">
     <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina">
-    <title>DEVA - Haciendo crecer los e-sports en Argentina</title>
-    <link rel="stylesheet" href="componentes.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="nav.js" defer></script>
     <title>DEVA - Haciendo crecer los e-sports en Argentina</title>
+    <link rel="icon" href="recursos/favicon.ico" type="image/x-icon">
 </head>
 <body>
     
 <header>
 
     <div class="video-deva">
-    <video autoplay muted plays-inline loop id="video-home-deva" alt="Video Institucional DEVA">
+    <video autoplay muted loop id="video-home-deva" alt="Video Institucional DEVA">
     <source src="recursos/home-video-deva.mp4" type="video/mp4">
     </video>
     </div>
@@ -189,6 +189,25 @@
         </div>
 
     <!-- GALERIA ESPACIO -->
+
+    <div class="main_galeria">
+            
+            <div class="heading-galeria">
+                <h2>galería</h2>
+                <a href="galeria.php">Ver más</a>
+            </div>
+            <div class="carousel_galeria">
+                <div class="imagenes_galeria">
+                    <img src="recursos/galeria1.png" alt="Chica gamer jugando en evento Juegos Bonaerenses">
+                    <img class="desk" src="recursos/galeria2.png" alt="Chica gamer jugando en AGS2022">
+                    <img class="desk" src="recursos/galeria3.png" alt="Equipo CSGO compitiendo en AGS 2022">
+                </div>
+                <div class="botones-carousel-galeria">
+                    <button id="anterior"><img src="recursos/chevron-left.svg" alt="Anterior Imagen"></button>
+                    <button id="siguiente"><img src="recursos/chevron-right.svg" alt="Siguiente Imagen"></button>
+                </div>
+            </div>                                    
+        </div>
 
     <div class="main_card-magenta-wrapper">
             

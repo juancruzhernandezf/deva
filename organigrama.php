@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVA - Organigrama</title>
-    <link rel="stylesheet" href="componentes.css">
-    <link rel="stylesheet" href="organigrama.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/organigrama.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="nav.js" defer></script>
 </head>
 <body>
     <header>
 
     <div class="video-deva">
-    <video autoplay muted plays-inline loop id="video-home-deva" alt="Video Institucional DEVA">
+    <video autoplay muted loop id="video-home-deva" alt="Video Institucional DEVA">
     <source src="recursos/home-video-deva.mp4" type="video/mp4">
     </video>
     </div>
@@ -96,7 +96,6 @@
 
     <?php include('footer.php');?>
 
-    <script src="index.js"></script>
     
 </body>
 </html>

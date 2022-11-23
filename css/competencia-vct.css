@@ -1,0 +1,79 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vct_text-wrapper {
+    width: 85%;
+    margin: 3rem 0;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+    align-self: flex-start;
+
+}
+
+.vct_text-wrapper p {
+    
+    text-align: left;
+    align-self: flex-start;
+}
+
+.heading_principal{
+    background-image: url(../recursos/valorant-vct.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 38%;
+    color: #F5F5F5;
+}
+
+.heading_principal article a {
+    margin-top: 2rem;
+    filter: var(--filterwhite);
+}
+
+
+.heading_principal article{
+    background-color: rgba(91, 225, 255, 0.8);
+    backdrop-filter: blur(2px);
+    padding: 2rem 8rem 2rem 8rem; 
+}
+
+.heading_principal article h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+
+.heading_principal p{
+font-size: 130%;
+font-weight: 400;
+}
+
+@media (max-width: 961px){
+
+    /*heading principal*/
+        
+   
+
+    .heading_principal article h1{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 1%;
+    }
+    
+    .heading_principal p{
+    font-size: 90%;
+    font-weight: 400;
+    margin-bottom: 3%;
+    }
+
+    .heading_principal article{
+        padding: 1rem 1rem 1rem 1rem; 
+    }
+}

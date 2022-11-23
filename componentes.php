@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="componentes.css">
+    <link rel="stylesheet" href="css/componentes.css">
     <title>Document</title>
 </head>
 <body>
@@ -62,15 +62,8 @@
                     </div>
             </div>        
         </div>
+</div>
 
-
-        </div>
-
-
-        </div>
-
-
-    </div>
 
 
 
@@ -153,6 +146,29 @@
 
 
     </div>
+
+
+<!-- COMPONENTE GALERIA -->
+
+<div class="main_galeria">
+            
+            <div class="heading-galeria">
+                <h2>galería</h2>
+                <a href="galeria.php">Ver más</a>
+            </div>
+            <div class="carousel_galeria">
+                <div class="imagenes_galeria">
+                    <img src="recursos/galeria1.png" alt="Chica gamer jugando en evento Juegos Bonaerenses">
+                    <img class="desk" src="recursos/galeria2.png" alt="Chica gamer jugando en AGS2022">
+                    <img class="desk" src="recursos/galeria3.png" alt="Equipo CSGO compitiendo en AGS 2022">
+                </div>
+                <div class="botones-carousel-galeria">
+                    <button id="anterior"><img src="recursos/chevron-left.svg" alt="Anterior Imagen"></button>
+                    <button id="siguiente"><img src="recursos/chevron-right.svg" alt="Siguiente Imagen"></button>
+                </div>
+            </div>                                    
+        </div>
+
 
 <!-- COMPONENTE main_card-magenta-info -->
 

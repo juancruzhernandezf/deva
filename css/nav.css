@@ -97,7 +97,7 @@ nav ul li:nth-child(7) {
         display: block;
         position: absolute;
         z-index: 9999;
-        background: url("recursos/hamburger-menu.svg");
+        background: url("../recursos/hamburger-menu.svg");
         background-repeat: no-repeat;
         border: none;
         width: 2rem;
@@ -109,7 +109,7 @@ nav ul li:nth-child(7) {
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url("recursos/close.svg");
+        background-image: url("../recursos/close.svg");
     }
 
 

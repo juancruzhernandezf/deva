@@ -1,16 +1,17 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Asociación abocada a la profesionalización de los Deportes Electrónicos tanto desde un marco deportivo, como educativo y social o de entretenimiento.">
-    <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina">
-    <title>Proyectos</title>
-    <link rel="stylesheet" href="componentes.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="proyectos.css">
-    <link rel="stylesheet" href="footer.css">
+    <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina, proyectos DEVA">
+    <title>Proyectos - DEVA</title>
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="recursos/favicon.ico" type="image/x-icon">
     <script src="nav.js" defer></script>
 </head>
 
@@ -53,6 +54,8 @@
                     </div>
             </div>        
         </article>
+        
+
         </section>
 		
 		<section class="main_seccion-grilla">           
@@ -105,11 +108,10 @@
                     </a>
                 </div>
             </article>    
-            <button>
-                <div class="arrow-down">
-                    <img src="recursos/arrow_down.svg" alt="ver más">
+                <div class="arrow-container">
+                <div class="arrow-down"></div>
                 </div>
-            </button> 
+
      </section>
 		
 		<section class="card_magenta-wrapper">
@@ -124,14 +126,9 @@
 		</section>
 		
 	</main>
-	
-	<footer>
 
-        <?php include('footer.php');?>
+    <?php include('footer.php');?>
 
-    </footer>
-	
-	<script src="index.js"></script>
 	
 	
 </body>

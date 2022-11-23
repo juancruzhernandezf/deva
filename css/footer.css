@@ -113,7 +113,9 @@ footer p a {
         margin-bottom: 1rem;
     }
 
-
+    footer ul {
+        margin: 1rem 0;
+    }
 
 
     footer div {

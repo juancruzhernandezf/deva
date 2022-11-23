@@ -1,9 +1,30 @@
+/* NAV Selector*/
+nav ul li:nth-child(2) {
+    border-bottom: 3px solid #5BE1FF;
+    font-weight: 700;
+
+} 
+
+@media (max-width: 961px) {
+
+    nav ul {
+        padding: 0;
+    }
+    nav ul li:nth-child(2) {
+        background-color: #5BE1FF;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        color: #000;
+    }
+}
+
 /*/////////////////////////////////////////////////
 ////////////COMPONENTE heading_principal //////////
 ////////////////////////////////////////////////*/
 
 .heading_principal{
-  background-image: url(recursos/proyectos-header.png);
+  background-image: url(../recursos/proyectos-header.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,7 +77,7 @@ font-weight: 400;
     color: #fff;
     margin: 0 0 0 0;
     z-index: -1;
-    padding: 7rem 0rem 2rem;
+    padding: 4rem 0rem 2rem;
     display: flex;
     flex-direction: column;
 
@@ -74,8 +95,9 @@ font-weight: 400;
 ////////////////////////////////////////////////////////////////*/
 
 
+
 .competencias_y_calendario > h3 {
-    margin: 4rem;
+    margin: 2rem;
 	margin-left: 8rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -83,13 +105,17 @@ font-weight: 400;
 }
 
 .main_competencias-container {
-    background-image: url("recursos/torneo_discapacitados.png");
+    background-image: url("../recursos/torneo_discapacitados.png");
     background-size: cover;
     display: flex;
     height: 47rem;
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 5rem;
+}
+
+.main_seccion-grilla {
+    padding-bottom: 5rem;
 }
 
 .container-celeste {
@@ -115,20 +141,33 @@ font-weight: 400;
     width: min-content;
 }
 
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 @media (max-width: 961px) {
-     .competencias_y_calendario > h3 {
-        position: relative;
+
+    .competencias_y_calendario > h3 {
+       margin: 1rem;
+       font-size: 1.5rem;
     }
+
 
     .competencias_y_calendario {
         display: flex;
         flex-direction: column;
+        padding: 2rem 0 2rem;
     } 
 
     .container-celeste .boton-primario {
         width: 100%;
     }
+
+    
 }
 
 /*////////////////////////////////////////////////////////////////
