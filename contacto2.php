@@ -49,7 +49,7 @@
                     </div>
                     
                     <div class="item">
-                        <select name="Asunto" id="main_formulario-selector">
+                        <select name="Asunto" id="main_formulario-selector" req>
                             <option value="" disabled selected hidden>Asunto</option>
                             <option value="Esports">Esports</option>
                             <option value="Información">Información</option>
