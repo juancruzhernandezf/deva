@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="DEVA, esports, Valorant Champions Tour, Valorant, deportes electrónicos, videojuegos profesional, esports argentina, Torneos Valorant">
-    <link rel="stylesheet" href="componentes.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="formulario.css">
-    <link rel="stylesheet" href="footer.css">
+    <meta name="keywords" content="DEVA, esports, Valorant Champions Tour, Valorant, deportes electrónicos, videojuegos profesional, esports argentina, Torneos Valorant, Formulario Valorant Champions Tour">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="nav.js" defer></script>
     <title>Formulario Inscripción - Torneos DEVA</title>
 </head>
@@ -18,17 +18,16 @@
 
     <?php include('nav.php'); ?>
 
-    <div class="heading_principal">
-
-        <div class="heading_text-container">
-            <h1>Formulario de Inscripción - Valorant Champions Tour</h1>
-
-            <h2>
-                ¡Inscribíte y competí por ser el representante internacional de nuestro país!
-            </h2>
-        </div>
-
-    </div>
+    <section class="heading_principal">
+            <article>
+                <h1>Valorant Champions Tour</h1>
+                <p>Convertite en el representante internacional de nuestro país.</p>
+                <a href="formulario.php" class="boton-primario">
+                    <p>Participar</p>
+                    <div class="icon-arrow-right"></div>
+                </a>
+            </article>
+        </section>
 </header>
 
     <main>
@@ -47,12 +46,12 @@
         <form action="enviarMail.php" method="post">
             <h3>Datos Personales</h3>
             <div class="item">
-                <label for="nombre">Nombre</label>
+                <label for="fname">Nombre</label>
                 <input type="text" placeholder="Escribe tu nombre" name="Nombre" id="fname">
             </div>
 
             <div class="item">
-                <label for="apellido" name="Apellido" id="lastname">Apellido</label>
+                <label for="lastname">Apellido</label>
                 <input type="text" name="apellido" id="lastname" placeholder="Escribe tu apellido">
             </div>
             
@@ -62,7 +61,7 @@
                     <input type="date" name="nacimiento" id="nacimiento">
                 </div>
 
-                <div class="item">
+                <div class="item dni">
                     <label for="selector_dni" class="label-hidden">Tipo de Documento</label>
                     <select name="dni" id="selector_dni">
                         <option value="" disabled selected hidden>DNI</option>

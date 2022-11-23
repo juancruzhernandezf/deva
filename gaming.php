@@ -137,7 +137,7 @@
                         <div class="spot_carousel2">
 
                                     <h5 class="nombre-streamer">Sabrina<br>Carnevale</h5>
-                                    <a href="certificaciones.html" class="boton-primario">
+                                    <a href="streamers.php" class="boton-primario">
                                      <p>Ver perfil</p>
                                     <div class="icon-arrow-right"></div>
                                     </a>
@@ -159,7 +159,7 @@
                     <div class="main_card-magenta-info">
                         <h3>Sé parte del equipo</h3>
                         <p>Postulate para un puesto de colaborador voluntario en DEVA, la cual es una Asociación Civil sin fines de lucro.</p>
-                        <a href="contacto.html" class="boton-primario">
+                        <a href="streamers.php" class="boton-primario">
                             <p>+Info</p>
                             <div class="icon-arrow-right"></div>
                         </a>

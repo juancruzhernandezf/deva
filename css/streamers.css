@@ -1,33 +1,8 @@
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
 
-.vct_text-wrapper {
-    width: 85%;
-    margin: 3rem 0;
-    display: flex;
-    flex-direction: column ;
-    gap: 1rem;
-}
 
-main h2 {
-    margin-bottom: 1rem;
-    align-self: flex-start;
-    text-transform: uppercase;
-
-}
-
-.vct_text-wrapper p {
-    
-    text-align: left;
-    align-self: flex-start;
-}
 
 .heading_principal{
-    background-image: url(../recursos/valorant-vct.png);
+    background-image: url(../recursos/streamers-heading.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,9 +49,73 @@ font-weight: 400;
     text-transform: uppercase;
 }
 
-.main_galeria {
-    margin-top: -12rem;
-    margin-bottom: 2rem;
+.wrapper-main {
+    background-color: #000;
+    margin-top: 3rem;
+    padding: 5rem 0 8rem;
+}
+
+.button-streamers button {
+    filter: var(--filterwhite);
+}
+
+.streamers-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    color: #fff;
+}
+
+
+.streamers-datos {
+    border: 3px solid #5BE1FF;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.datos-container-right {
+    padding-left: 1rem;
+}
+
+.container-left {
+    width: 50%;
+}
+
+.container-left img {
+    width: 100%;
+    height: auto;
+}
+
+.container-right {
+    width: 50%;
+}
+
+.container-right h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.lista-datos li {
+    list-style: none;
+}
+
+.lista-datos ul li {
+    list-style: disc;
+}
+
+.datos-streamer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.main_card-magenta-wrapper {
+    margin-top: -5rem;
 }
 
 .main_galeria h2 {
@@ -91,9 +130,32 @@ font-weight: 400;
     display: none;
 }
 
+.title-datos-streamer {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.datos-streamer-container a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
 @media (max-width: 961px){
 
+    .streamers-datos {
+        flex-direction: column;
+    }
+
+    .container-left {
+        width: 100%;
+    }
+
+    .container-right {
+        width: 100%;
+
+    }
     /*heading principal*/
     
     .mapa-desktop {

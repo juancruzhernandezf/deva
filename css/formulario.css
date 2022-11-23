@@ -2,9 +2,60 @@
     width: 75%;
 }
 
+.item.dni {
+    width: 25%;
+}
+
+.heading_principal{
+    background-image: url(../recursos/formulario-heading.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 38%;
+    color: #F5F5F5;
+}
+
+.heading_principal article a {
+    margin-top: 2rem;
+    filter: var(--filterwhite);
+}
 
 
-select {
+.heading_principal article{
+    background-color: rgba(91, 225, 255, 0.8);
+    backdrop-filter: blur(2px);
+    padding: 2rem 8rem 2rem 8rem; 
+}
+
+.heading_principal article h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+
+.heading_principal p{
+font-size: 130%;
+font-weight: 400;
+}
+
+
+
+#main_formulario-selector {
+    padding: 0 0 .5rem;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#selector_dni {
+    padding: 0 0 .5rem;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
     padding: 0 0 .5rem;
     border: none;
     border-bottom: 2px solid #000;
@@ -37,6 +88,32 @@ main form {
 
 }
 
+.pasos-formulario {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.paso-filled {
+    background-color: #FF3387;
+    width: 120px;
+    padding: 1rem;
+}
+
+
+.paso-outline {
+    border: solid 3px #FF3387;
+    width: 120px;
+    padding: 1rem;
+    color: #000;
+}
+
 
 form h3 {
     width: 75%;
@@ -49,7 +126,7 @@ form h3 {
 }
 
 .wrapper-datos:nth-child(2) {
-    width: 5rem !important;
+    width: 5rem;
 }
 
 .label-hidden {
@@ -72,4 +149,49 @@ form h3 {
     flex-direction: column;
     gap: .5rem;
     margin: 1rem 0;
+}
+
+
+@media (max-width: 961px){
+
+    .wrapper-datos {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    .item {
+        width: 100%;
+    }
+    
+    .item.dni {
+        width: 100%;
+    }
+
+    #selector_dni {
+        width: 100%;
+    }
+
+
+    #submit_formulario {
+        background:none;
+        padding: .5rem 1rem;
+        align-self: flex-end;
+        position: inherit;
+    }
+
+
+    .paso-filled {
+        background-color: #FF3387;
+        min-width: fit-content;
+        padding: 1rem;
+    }
+    
+    
+    .paso-outline {
+        border: solid 3px #FF3387;
+        min-width: fit-content;
+        padding: 1rem;
+        color: #000;
+    }
 }

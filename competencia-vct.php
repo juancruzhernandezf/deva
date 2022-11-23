@@ -18,8 +18,8 @@
         <?php include("nav.php");?>
         <section class="heading_principal">
             <article>
-                <h1>académico</h1>
-                <p>Aprender sobre E-SPORTS te va a ayudar a expandir tus oportunidades de emprender, crecer y potenciar tu carrera.</p>
+                <h1>Valorant Champions Tour</h1>
+                <p>Convertite en el representante internacional de nuestro país.</p>
                 <a href="formulario.php" class="boton-primario">
                     <p>Participar</p>
                     <div class="icon-arrow-right"></div>
@@ -49,12 +49,26 @@
             <h3>Requisitos</h3>
             <p>Informate sobre todos los requisitos necesarios para poder participar de esta edición del torneo y disfrutar al máximo tu experiencia Valorant.</p>
 
-            <a href="certificaciones.html" class="boton-primario">
+            <a href="requisitos.php" class="boton-primario">
                 <p>+Info</p>
                 <div class="icon-arrow-right"></div>
             </a>
 
         </div>
+
+        <div class="main_mapas">
+        <h3>Ubicación</h3>
+        <p>Centro Costa Salguero</p>
+        <p>Av. Costanera Rafael Obligado 1221, C1425 CABA</p>
+
+        <iframe class="mapa-desktop" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3371905435697!2d-58.39764978477114!3d-34.57033368046815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ebb33d8e3f%3A0x5674c7e3a362345b!2sAv.%20Costanera%20Rafael%20Obligado%201221%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1669222262717!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <iframe class="mapa-mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3371905435697!2d-58.39764978477114!3d-34.57033368046815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ebb33d8e3f%3A0x5674c7e3a362345b!2sAv.%20Costanera%20Rafael%20Obligado%201221%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1669222262717!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    
+            </div>
+
 
         <div class="main_galeria">
             
@@ -75,8 +89,8 @@
             </div>                                    
         </div>
 
-        <a href="certificaciones.html" class="boton-primario">
-                <p>+Info</p>
+        <a href="formulario.php" class="boton-primario">
+                <p>Participar</p>
                 <div class="icon-arrow-right"></div>
         </a>
 
@@ -84,7 +98,7 @@
             <h3>Contactate con DEVA</h3>
             <p>Si estás interesado en saber un poco más de nosotros, o tenes una consulta, estaremos más que comprometidos en responderte lo antes posible.</p>
 
-            <a href="certificaciones.html" class="boton-primario">
+            <a href="formulario.php" class="boton-primario" id="boton-participar">
                 <p>+Info</p>
                 <div class="icon-arrow-right"></div>
             </a>
