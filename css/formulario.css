@@ -151,6 +151,35 @@ form h3 {
     margin: 1rem 0;
 }
 
+@media (max-width: 961px){
+
+    /*heading principal*/
+    
+    .mapa-desktop {
+        display: none;
+    }
+
+   .mapa-mobile {
+    display: block;
+   }
+
+    .heading_principal article h1{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 1%;
+    }
+    
+    .heading_principal p{
+    font-size: 90%;
+    font-weight: 400;
+    margin-bottom: 3%;
+    }
+
+    .heading_principal article{
+        padding: 1rem 1rem 1rem 1rem; 
+    }
+}
 
 @media (max-width: 961px){
 

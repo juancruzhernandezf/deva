@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/footer.css">
     <script src="nav.js" defer></script>
+    <link rel="icon" href="recursos/favicon.ico" type="image/x-icon">
     <title>Formulario Inscripción - Torneos DEVA</title>
 </head>
 <body>
@@ -22,10 +23,6 @@
             <article>
                 <h1>Valorant Champions Tour</h1>
                 <p>Convertite en el representante internacional de nuestro país.</p>
-                <a href="formulario.php" class="boton-primario">
-                    <p>Participar</p>
-                    <div class="icon-arrow-right"></div>
-                </a>
             </article>
         </section>
 </header>
