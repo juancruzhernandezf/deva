@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="keywords" content="DEVA, esports, EJUAR, deportes electrónicos, videojuegos profesional, esports argentina, aprender sobre esports">
     <title>DEVA - Académico</title>
     <link rel="stylesheet" href="css/componentes.css">
     <link rel="stylesheet" href="css/academico.css">
