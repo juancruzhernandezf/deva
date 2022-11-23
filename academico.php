@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>DEVA - Académico</title>
     <link rel="stylesheet" href="css/componentes.css">
     <link rel="stylesheet" href="css/academico.css">
@@ -66,26 +67,28 @@
 
   <section class="card_negro">         
         <article class="competencias_y_calendario">
-            <h2>investigaciones</h2>
-            <div class="main_competencias-container">
-                <div class="competencias_carousel">
-    
-                    <div class="botones-carousel">
-                        <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
+                <h2>investigaciones</h2>
+                <div class="main_competencias-container">
+                    <div class="competencias_carousel">
+            
+                        <div class="botones-carousel">
+                                    <button id="anterior-competencia"><img src="recursos/chevron-left.svg" alt="Anterior Competencia"></button>
 
-                        <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                                    <button id="siguiente-competencia"><img src="recursos/chevron-right.svg" alt="Siguiente Competencia"></button>
+                        </div>
+                            <div class="container-celeste">
+                                <h4>
+                                    dirección de formación e investigación científica
+                                </h4>
+                                <p>Otorgamos credibilidad, marco teórico y rigurosidad científica a los estudios, tesis, trabajos, artículos e investigaciones sobre el Deporte Electrónico y a los Videojuegos en Argentina.</p>
+                                <a href="juegos-bonaerenses.php" class="boton-primario">
+                                    <p>Ver más</p>
+                                    <div class="icon-arrow-right"></div>
+                                </a>
+                            </div>
+                        
                     </div>
-                    <div class="container-celeste">
-                            <h4>
-                                dirección de formación e investigación científica
-                            </h4>
-                            <p>Otorgamos credibilidad, marco teórico y rigurosidad científica a los estudios, tesis, trabajos, artículos e investigaciones sobre el Deporte Electrónico y a los Videojuegos en Argentina.</p>
-                        <a href="juegos-bonaerenses.php" class="boton-primario">
-                            <p>Ver más</p>
-                            <div class="icon-arrow-right"></div>
-                        </a>
-                    </div>
-                </div>        
+                </div>           
         </article>
         
         <article class="programa">
